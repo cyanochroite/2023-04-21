@@ -1,22 +1,61 @@
-************* Module celestine.data.alphabet
-celestine\data\alphabet.py:1:0: C0114: Missing module docstring (missing-module-docstring)
-celestine\data\alphabet.py:5:0: C0115: Missing class docstring (missing-class-docstring)
-celestine\data\alphabet.py:10:0: C0115: Missing class docstring (missing-class-docstring)
-celestine\data\alphabet.py:18:0: C0115: Missing class docstring (missing-class-docstring)
-celestine\data\alphabet.py:25:0: C0115: Missing class docstring (missing-class-docstring)
-celestine\data\alphabet.py:56:0: C0115: Missing class docstring (missing-class-docstring)
-************* Module celestine.data.encoding
-celestine\data\encoding.py:1:0: C0114: Missing module docstring (missing-module-docstring)
-celestine\data\encoding.py:1:0: W0401: Wildcard import celestine.data.unicode (wildcard-import)
-************* Module celestine.data.session
-celestine\data\session.py:1:0: C0114: Missing module docstring (missing-module-docstring)
-celestine\data\session.py:4:0: C0116: Missing function or method docstring (missing-function-docstring)
-celestine\data\session.py:11:9: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
-celestine\data\session.py:25:0: C0115: Missing class docstring (missing-class-docstring)
-celestine\data\session.py:37:4: C0116: Missing function or method docstring (missing-function-docstring)
-celestine\data\session.py:41:4: C0116: Missing function or method docstring (missing-function-docstring)
-************* Module celestine.data.unicode
-celestine\data\unicode.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+************* Module celestine.__main__
+celestine\__main__.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+celestine\__main__.py:8:0: R0402: Use 'from celestine.core import load' instead (consider-using-from-import)
+celestine\__main__.py:8:0: C0413: Import "import celestine.core.load as load" should be placed at the top of the module (wrong-import-position)
+celestine\__main__.py:9:0: C0413: Import "from celestine.data.session import Session" should be placed at the top of the module (wrong-import-position)
+celestine\__main__.py:10:0: C0413: Import "from celestine.window.main import main" should be placed at the top of the module (wrong-import-position)
+celestine\__main__.py:14:0: C0413: Import "import argparse" should be placed at the top of the module (wrong-import-position)
+celestine\__main__.py:15:0: W0404: Reimport 'sys' (imported line 1) (reimported)
+celestine\__main__.py:15:0: C0413: Import "import sys" should be placed at the top of the module (wrong-import-position)
+celestine\__main__.py:86:0: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\__main__.py:86:18: W0621: Redefining name 'package' from outer scope (line 107) (redefined-outer-name)
+celestine\__main__.py:92:14: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+celestine\__main__.py:100:8: W0401: Wildcard import celestine.package.unittest (wildcard-import)
+celestine\__main__.py:106:8: W0104: Statement seems to have no effect (pointless-statement)
+celestine\__main__.py:106:8: E1101: Class 'parser' has no 'ini' member (no-member)
+celestine\__main__.py:106:8: E1101: Instance of 'ArgumentParser' has no 'ini' member (no-member)
+celestine\__main__.py:14:0: C0411: standard import "import argparse" should be placed before "import celestine.core.load as load" (wrong-import-order)
+celestine\__main__.py:15:0: C0411: standard import "import sys" should be placed before "import celestine.core.load as load" (wrong-import-order)
+celestine\__main__.py:15:0: C0412: Imports from package sys are not grouped (ungrouped-imports)
+celestine\__main__.py:100:8: W0614: Unused import(s) test_text, test_translator, log_unicode, decode, maps, translator, tokenizer, encoding, log, split_when, filter_true, Comparison, Digit, Divider, Letter, Unary, comparison_parse, number_parse, tab_parse, word_parse, unary_parse, Operator, eq, ge, gt, le, lt, ne, nn, nu, add, div, mul, sub, tab, word, number, join, test_digit, test_unary, test_comparison, enum, test_init, extension, test_more_itertools, more_itertools and first_true from wildcard import of celestine.package.unittest (unused-wildcard-import)
+************* Module celestine.core._config
+celestine\core\_config.py:28:9: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+celestine\core\_config.py:28:45: C0103: Variable name "configfileObj" doesn't conform to snake_case naming style (invalid-name)
+celestine\core\_config.py:36:16: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+celestine\core\_config.py:36:16: R1732: Consider using 'with' for resource-allocating operations (consider-using-with)
+celestine\core\_config.py:59:9: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+celestine\core\_config.py:65:11: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+celestine\core\_config.py:65:11: R1732: Consider using 'with' for resource-allocating operations (consider-using-with)
+************* Module celestine.core._star
+celestine\core\_star.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+celestine\core\_star.py:1:0: E0401: Unable to import 'celestine.package.pillow.Image' (import-error)
+celestine\core\_star.py:1:0: E0611: No name 'pillow' in module 'celestine.package' (no-name-in-module)
+celestine\core\_star.py:2:0: E0401: Unable to import 'celestine.package.python.hashlib' (import-error)
+celestine\core\_star.py:2:0: E0611: No name 'python' in module 'celestine.package' (no-name-in-module)
+celestine\core\_star.py:3:0: E0401: Unable to import 'celestine.package.python.os' (import-error)
+celestine\core\_star.py:3:0: E0611: No name 'python' in module 'celestine.package' (no-name-in-module)
+celestine\core\_star.py:6:0: C0116: Missing function or method docstring (missing-function-docstring)
+************* Module celestine.core._text
+celestine\core\_text.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+celestine\core\_text.py:1:0: C0103: Constant name "fatal" doesn't conform to UPPER_CASE naming style (invalid-name)
+celestine\core\_text.py:2:0: C0103: Constant name "error" doesn't conform to UPPER_CASE naming style (invalid-name)
+celestine\core\_text.py:3:0: C0103: Constant name "notice" doesn't conform to UPPER_CASE naming style (invalid-name)
+celestine\core\_text.py:4:0: C0103: Constant name "warning" doesn't conform to UPPER_CASE naming style (invalid-name)
+celestine\core\_text.py:5:0: C0103: Constant name "alert" doesn't conform to UPPER_CASE naming style (invalid-name)
+celestine\core\_text.py:6:0: C0103: Constant name "debug" doesn't conform to UPPER_CASE naming style (invalid-name)
+celestine\core\_text.py:7:0: C0103: Constant name "info" doesn't conform to UPPER_CASE naming style (invalid-name)
+celestine\core\_text.py:8:0: C0103: Constant name "trace" doesn't conform to UPPER_CASE naming style (invalid-name)
+celestine\core\_text.py:14:0: C0115: Missing class docstring (missing-class-docstring)
+celestine\core\_text.py:14:0: C0103: Class name "log" doesn't conform to PascalCase naming style (invalid-name)
+celestine\core\_text.py:16:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\core\_text.py:21:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\core\_text.py:26:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\core\_text.py:31:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\core\_text.py:36:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\core\_text.py:41:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\core\_text.py:46:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\core\_text.py:51:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\core\_text.py:56:0: W0105: String statement has no effect (pointless-string-statement)
 ************* Module celestine.extension.more_itertools
 celestine\extension\more_itertools.py:1:0: C0114: Missing module docstring (missing-module-docstring)
 celestine\extension\more_itertools.py:7:0: C0116: Missing function or method docstring (missing-function-docstring)
@@ -852,15 +891,9 @@ celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
 ==celestine.package._curses:[39:154]
         cursor_x = max(0, cursor_x)
         cursor_x = min(width-1, cursor_x)
+
         cursor_y = max(0, cursor_y)
         cursor_y = min(height-1, cursor_y)
-
-        # Initialization
-        #stdscr.clear()
-
-
-
-
 
         # Declaration of strings
         title = "Curses example"[:width-1]
@@ -968,7 +1001,7 @@ class Window():
             dpg.add_input_text(label="string", default_value="Quick brown fox")
             dpg.add_slider_float(label="float", default_value=0.273, max_value=1)
 
-    def run(self, setup, view):
+    def run(self):
         print("dog")
         curses.wrapper(draw_menu) (duplicate-code)
 celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
@@ -998,6 +1031,7 @@ class list:
 
     def reset(self):
         self._index = self._min
+
 
 
 class WindowModel():
@@ -1055,9 +1089,6 @@ class WindowModel():
         path = os.path.dirname(path)
         path = os.path.join(path, "file")
         return path
-
-
-import tkinter
 
  (duplicate-code)
 celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
@@ -1119,8 +1150,12 @@ celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
     min_x_wkeystr = width - 1
     min_x_kkeystr = width - 1
 
+
+
     cursor_x = 0
     cursor_y = 0
+
+
 
     # Loop where k is the last character pressed
     while (k != ord('q')):
@@ -1164,7 +1199,7 @@ class Window():
         "done"
     ]
 
-    def draw(self): (duplicate-code)
+    def run(self, setup, view): (duplicate-code)
 celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
 ==celestine.package._curses:[3:14]
 ==celestine.package.curses:[60:76]
@@ -1175,15 +1210,10 @@ celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
     min_x_keystr = width - 1
     min_x_wkeystr = width - 1
     min_x_kkeystr = width - 1
-
-
-
     cursor_x = 0
     cursor_y = 0
 
-
-
- (duplicate-code)
+    # Clear and refresh the screen for a blank canvas (duplicate-code)
 celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
 ==celestine.package._curses:[120:132]
 ==celestine.package.curses:[192:200]
@@ -1206,8 +1236,7 @@ class Image():
         self.width = image.width()
         self.name = file
 
-
-def browseFiles(): (duplicate-code)
+ (duplicate-code)
 celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
 ==celestine.package._curses2:[20:27]
 ==celestine.package.curses:[23:30]
@@ -1220,5 +1249,5 @@ celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
     quote_window = curses.newwin(19, 80, 1, 0) (duplicate-code)
 
 ------------------------------------------------------------------
-Your code has been rated at 3.78/10 (previous run: 3.81/10, -0.03)
+Your code has been rated at 4.79/10 (previous run: 4.76/10, +0.03)
 
