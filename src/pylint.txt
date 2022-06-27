@@ -96,35 +96,35 @@ celestine\extension\pillow\ImageTk.py:5:0: C0115: Missing class docstring (missi
 celestine\extension\pillow\ImageTk.py:7:4: C0116: Missing function or method docstring (missing-function-docstring)
 celestine\extension\pillow\ImageTk.py:7:4: C0103: Method name "PhotoImage" doesn't conform to snake_case naming style (invalid-name)
 celestine\extension\pillow\ImageTk.py:5:0: R0903: Too few public methods (1/2) (too-few-public-methods)
-************* Module celestine.extension.python.hashlib
-celestine\extension\python\hashlib.py:1:0: C0114: Missing module docstring (missing-module-docstring)
-celestine\extension\python\hashlib.py:5:0: C0115: Missing class docstring (missing-class-docstring)
-celestine\extension\python\hashlib.py:5:0: C0103: Class name "hashlib" doesn't conform to PascalCase naming style (invalid-name)
-celestine\extension\python\hashlib.py:13:4: C0116: Missing function or method docstring (missing-function-docstring)
-celestine\extension\python\hashlib.py:5:0: R0903: Too few public methods (1/2) (too-few-public-methods)
-************* Module celestine.extension.python.os
-celestine\extension\python\os.py:1:0: C0114: Missing module docstring (missing-module-docstring)
-celestine\extension\python\os.py:5:0: C0115: Missing class docstring (missing-class-docstring)
-celestine\extension\python\os.py:5:0: C0103: Class name "os" doesn't conform to PascalCase naming style (invalid-name)
-celestine\extension\python\os.py:7:4: C0116: Missing function or method docstring (missing-function-docstring)
-celestine\extension\python\os.py:11:4: C0116: Missing function or method docstring (missing-function-docstring)
-celestine\extension\python\os.py:15:4: C0116: Missing function or method docstring (missing-function-docstring)
-celestine\extension\python\os.py:20:4: C0116: Missing function or method docstring (missing-function-docstring)
-celestine\extension\python\os.py:25:4: C0116: Missing function or method docstring (missing-function-docstring)
-celestine\extension\python\os.py:27:22: W0612: Unused variable 'dirnames' (unused-variable)
-celestine\extension\python\os.py:33:4: C0116: Missing function or method docstring (missing-function-docstring)
-celestine\extension\python\os.py:44:4: C0116: Missing function or method docstring (missing-function-docstring)
-celestine\extension\python\os.py:49:4: C0116: Missing function or method docstring (missing-function-docstring)
-************* Module celestine.extension.python.path
-celestine\extension\python\path.py:1:0: C0114: Missing module docstring (missing-module-docstring)
-celestine\extension\python\path.py:5:0: C0115: Missing class docstring (missing-class-docstring)
-celestine\extension\python\path.py:5:0: C0103: Class name "path" doesn't conform to PascalCase naming style (invalid-name)
-celestine\extension\python\path.py:7:4: C0116: Missing function or method docstring (missing-function-docstring)
-celestine\extension\python\path.py:7:17: W0621: Redefining name 'path' from outer scope (line 5) (redefined-outer-name)
-celestine\extension\python\path.py:11:4: C0116: Missing function or method docstring (missing-function-docstring)
-celestine\extension\python\path.py:11:16: W0621: Redefining name 'path' from outer scope (line 5) (redefined-outer-name)
-celestine\extension\python\path.py:15:4: C0116: Missing function or method docstring (missing-function-docstring)
-celestine\extension\python\path.py:15:13: W0621: Redefining name 'path' from outer scope (line 5) (redefined-outer-name)
+************* Module celestine.extension._python.hashlib
+celestine\extension\_python\hashlib.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+celestine\extension\_python\hashlib.py:5:0: C0115: Missing class docstring (missing-class-docstring)
+celestine\extension\_python\hashlib.py:5:0: C0103: Class name "hashlib" doesn't conform to PascalCase naming style (invalid-name)
+celestine\extension\_python\hashlib.py:13:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\extension\_python\hashlib.py:5:0: R0903: Too few public methods (1/2) (too-few-public-methods)
+************* Module celestine.extension._python.os
+celestine\extension\_python\os.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+celestine\extension\_python\os.py:5:0: C0115: Missing class docstring (missing-class-docstring)
+celestine\extension\_python\os.py:5:0: C0103: Class name "os" doesn't conform to PascalCase naming style (invalid-name)
+celestine\extension\_python\os.py:7:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\extension\_python\os.py:11:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\extension\_python\os.py:15:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\extension\_python\os.py:20:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\extension\_python\os.py:25:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\extension\_python\os.py:27:22: W0612: Unused variable 'dirnames' (unused-variable)
+celestine\extension\_python\os.py:33:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\extension\_python\os.py:44:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\extension\_python\os.py:49:4: C0116: Missing function or method docstring (missing-function-docstring)
+************* Module celestine.extension._python.path
+celestine\extension\_python\path.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+celestine\extension\_python\path.py:5:0: C0115: Missing class docstring (missing-class-docstring)
+celestine\extension\_python\path.py:5:0: C0103: Class name "path" doesn't conform to PascalCase naming style (invalid-name)
+celestine\extension\_python\path.py:7:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\extension\_python\path.py:7:17: W0621: Redefining name 'path' from outer scope (line 5) (redefined-outer-name)
+celestine\extension\_python\path.py:11:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\extension\_python\path.py:11:16: W0621: Redefining name 'path' from outer scope (line 5) (redefined-outer-name)
+celestine\extension\_python\path.py:15:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\extension\_python\path.py:15:13: W0621: Redefining name 'path' from outer scope (line 5) (redefined-outer-name)
 ************* Module celestine.package.curses
 celestine\package\curses.py:84:0: C0325: Unnecessary parens after 'while' keyword (superfluous-parens)
 celestine\package\curses.py:1:0: C0114: Missing module docstring (missing-module-docstring)
@@ -167,46 +167,51 @@ celestine\package\curses.py:126:8: W0612: Unused variable 'start_x_subtitle' (un
 celestine\package\curses.py:193:0: C0413: Import "import dearpygui.dearpygui as dpg" should be placed at the top of the module (wrong-import-position)
 celestine\package\curses.py:198:0: C0115: Missing class docstring (missing-class-docstring)
 celestine\package\curses.py:207:4: C0116: Missing function or method docstring (missing-function-docstring)
-celestine\package\curses.py:207:18: W0613: Unused argument 'setup' (unused-argument)
-celestine\package\curses.py:207:25: W0613: Unused argument 'view' (unused-argument)
+celestine\package\curses.py:207:18: W0613: Unused argument 'app' (unused-argument)
 celestine\package\curses.py:198:0: R0903: Too few public methods (1/2) (too-few-public-methods)
 celestine\package\curses.py:193:0: W0611: Unused dearpygui.dearpygui imported as dpg (unused-import)
 ************* Module celestine.package.dearpygui
+celestine\package\dearpygui.py:53:0: C0301: Line too long (108/100) (line-too-long)
 celestine\package\dearpygui.py:1:0: C0114: Missing module docstring (missing-module-docstring)
 celestine\package\dearpygui.py:7:0: C0115: Missing class docstring (missing-class-docstring)
 celestine\package\dearpygui.py:7:0: R0903: Too few public methods (0/2) (too-few-public-methods)
-celestine\package\dearpygui.py:26:0: C0115: Missing class docstring (missing-class-docstring)
-celestine\package\dearpygui.py:27:4: C0116: Missing function or method docstring (missing-function-docstring)
-celestine\package\dearpygui.py:30:4: C0116: Missing function or method docstring (missing-function-docstring)
-celestine\package\dearpygui.py:33:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\package\dearpygui.py:26:0: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\package\dearpygui.py:26:17: W0613: Unused argument 'sender' (unused-argument)
+celestine\package\dearpygui.py:26:25: W0613: Unused argument 'app_data' (unused-argument)
+celestine\package\dearpygui.py:30:0: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\package\dearpygui.py:30:18: W0613: Unused argument 'sender' (unused-argument)
+celestine\package\dearpygui.py:38:0: C0115: Missing class docstring (missing-class-docstring)
+celestine\package\dearpygui.py:42:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\package\dearpygui.py:64:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\package\dearpygui.py:65:19: E0602: Undefined variable 'tkinter' (undefined-variable)
+celestine\package\dearpygui.py:75:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\package\dearpygui.py:79:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\package\dearpygui.py:82:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\package\dearpygui.py:86:4: C0116: Missing function or method docstring (missing-function-docstring)
 ************* Module celestine.package.tkinter
-celestine\package\tkinter.py:77:0: C0305: Trailing newlines (trailing-newlines)
+celestine\package\tkinter.py:90:0: C0305: Trailing newlines (trailing-newlines)
 celestine\package\tkinter.py:1:0: C0114: Missing module docstring (missing-module-docstring)
-celestine\package\tkinter.py:8:0: C0115: Missing class docstring (missing-class-docstring)
-celestine\package\tkinter.py:8:0: R0903: Too few public methods (0/2) (too-few-public-methods)
-celestine\package\tkinter.py:17:0: C0116: Missing function or method docstring (missing-function-docstring)
-celestine\package\tkinter.py:17:0: C0103: Function name "browseFiles" doesn't conform to snake_case naming style (invalid-name)
-celestine\package\tkinter.py:28:4: E0602: Undefined variable 'label_file_explorer' (undefined-variable)
-celestine\package\tkinter.py:30:0: C0115: Missing class docstring (missing-class-docstring)
-celestine\package\tkinter.py:35:4: C0116: Missing function or method docstring (missing-function-docstring)
-celestine\package\tkinter.py:40:4: C0116: Missing function or method docstring (missing-function-docstring)
-celestine\package\tkinter.py:51:4: C0116: Missing function or method docstring (missing-function-docstring)
-celestine\package\tkinter.py:51:27: W0613: Unused argument 'bind' (unused-argument)
-celestine\package\tkinter.py:60:4: C0116: Missing function or method docstring (missing-function-docstring)
-celestine\package\tkinter.py:63:4: C0116: Missing function or method docstring (missing-function-docstring)
-celestine\package\tkinter.py:64:8: W0201: Attribute 'root' defined outside __init__ (attribute-defined-outside-init)
+celestine\package\tkinter.py:9:0: C0115: Missing class docstring (missing-class-docstring)
+celestine\package\tkinter.py:9:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+celestine\package\tkinter.py:18:0: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\package\tkinter.py:18:0: C0103: Function name "browseFiles" doesn't conform to snake_case naming style (invalid-name)
+celestine\package\tkinter.py:29:4: E0602: Undefined variable 'label_file_explorer' (undefined-variable)
+celestine\package\tkinter.py:32:0: C0115: Missing class docstring (missing-class-docstring)
+celestine\package\tkinter.py:36:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\package\tkinter.py:46:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\package\tkinter.py:57:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\package\tkinter.py:62:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\package\tkinter.py:65:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\package\tkinter.py:76:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\package\tkinter.py:77:8: W0201: Attribute 'root' defined outside __init__ (attribute-defined-outside-init)
 ************* Module celestine.package.unittest
 celestine\package\unittest.py:1:0: C0114: Missing module docstring (missing-module-docstring)
-celestine\package\unittest.py:1:0: W0401: Wildcard import celestine.test.test_core.test_text (wildcard-import)
-celestine\package\unittest.py:3:0: W0401: Wildcard import celestine.test.test_parser.test_translator (wildcard-import)
-celestine\package\unittest.py:4:0: W0401: Wildcard import celestine.test.test_parser.test_operator (wildcard-import)
-celestine\package\unittest.py:6:0: W0401: Wildcard import celestine.test.test_extension.test_init (wildcard-import)
-celestine\package\unittest.py:7:0: W0401: Wildcard import celestine.test.test_extension.test_more_itertools (wildcard-import)
-celestine\package\unittest.py:1:0: W0614: Unused import(s) unittest and test_text from wildcard import of celestine.test.test_core.test_text (unused-wildcard-import)
-celestine\package\unittest.py:3:0: W0614: Unused import(s) test_translator, log_unicode, decode, maps, translator, tokenizer, parser, encoding, log, split_when, filter_true, Comparison, Digit, Divider, Letter, Unary, comparison_parse, number_parse, tab_parse, word_parse, unary_parse, Operator, eq, ge, gt, le, lt, ne, nn, nu, add, div, mul, sub, tab, word, number and join from wildcard import of celestine.test.test_parser.test_translator (unused-wildcard-import)
-celestine\package\unittest.py:4:0: W0614: Unused import(s) parse, test_digit, test_unary, test_comparison and enum from wildcard import of celestine.test.test_parser.test_operator (unused-wildcard-import)
-celestine\package\unittest.py:6:0: W0614: Unused import(s) test_init from wildcard import of celestine.test.test_extension.test_init (unused-wildcard-import)
-celestine\package\unittest.py:7:0: W0614: Unused import(s) test_more_itertools and first_true from wildcard import of celestine.test.test_extension.test_more_itertools (unused-wildcard-import)
+celestine\package\unittest.py:1:0: W0401: Wildcard import celestine.test.test_parser.test_translator (wildcard-import)
+celestine\package\unittest.py:2:0: W0401: Wildcard import celestine.test.test_parser.test_operator (wildcard-import)
+celestine\package\unittest.py:4:0: W0401: Wildcard import celestine.test.test_extension.test_more_itertools (wildcard-import)
+celestine\package\unittest.py:1:0: W0614: Unused import(s) unittest, test_translator, log_unicode, decode, maps, translator, tokenizer, parser, encoding, split_when, filter_true, Comparison, Digit, Divider, Letter, Unary, comparison_parse, number_parse, tab_parse, word_parse, unary_parse, Operator, eq, ge, gt, le, lt, ne, nn, nu, add, div, mul, sub, tab, word, number and join from wildcard import of celestine.test.test_parser.test_translator (unused-wildcard-import)
+celestine\package\unittest.py:2:0: W0614: Unused import(s) parse, test_digit, test_unary, test_comparison and enum from wildcard import of celestine.test.test_parser.test_operator (unused-wildcard-import)
+celestine\package\unittest.py:4:0: W0614: Unused import(s) test_more_itertools and first_true from wildcard import of celestine.test.test_extension.test_more_itertools (unused-wildcard-import)
 ************* Module celestine.package._curses
 celestine\package\_curses.py:25:0: C0325: Unnecessary parens after 'while' keyword (superfluous-parens)
 celestine\package\_curses.py:1:0: C0114: Missing module docstring (missing-module-docstring)
@@ -728,23 +733,21 @@ celestine\parser\text.py:127:0: C0103: Constant name "string" doesn't conform to
 celestine\parser\text.py:1:0: W0611: Unused import sys (unused-import)
 ************* Module celestine.parser.translator
 celestine\parser\translator.py:1:0: C0114: Missing module docstring (missing-module-docstring)
-celestine\parser\translator.py:2:0: E0401: Unable to import 'celestine.core.text' (import-error)
-celestine\parser\translator.py:2:0: E0611: No name 'text' in module 'celestine.core' (no-name-in-module)
-celestine\parser\translator.py:22:0: C0116: Missing function or method docstring (missing-function-docstring)
-celestine\parser\translator.py:27:0: C0116: Missing function or method docstring (missing-function-docstring)
-celestine\parser\translator.py:41:0: C0116: Missing function or method docstring (missing-function-docstring)
-celestine\parser\translator.py:55:0: C0115: Missing class docstring (missing-class-docstring)
-celestine\parser\translator.py:55:0: C0103: Class name "translator" doesn't conform to PascalCase naming style (invalid-name)
-celestine\parser\translator.py:57:4: C0116: Missing function or method docstring (missing-function-docstring)
-celestine\parser\translator.py:55:0: R0903: Too few public methods (1/2) (too-few-public-methods)
-celestine\parser\translator.py:61:0: C0115: Missing class docstring (missing-class-docstring)
-celestine\parser\translator.py:61:0: C0103: Class name "tokenizer" doesn't conform to PascalCase naming style (invalid-name)
-celestine\parser\translator.py:63:4: C0116: Missing function or method docstring (missing-function-docstring)
-celestine\parser\translator.py:61:0: R0903: Too few public methods (1/2) (too-few-public-methods)
-celestine\parser\translator.py:67:0: C0115: Missing class docstring (missing-class-docstring)
-celestine\parser\translator.py:67:0: C0103: Class name "parser" doesn't conform to PascalCase naming style (invalid-name)
-celestine\parser\translator.py:69:4: C0116: Missing function or method docstring (missing-function-docstring)
-celestine\parser\translator.py:67:0: R0903: Too few public methods (1/2) (too-few-public-methods)
+celestine\parser\translator.py:21:0: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\parser\translator.py:26:0: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\parser\translator.py:40:0: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\parser\translator.py:54:0: C0115: Missing class docstring (missing-class-docstring)
+celestine\parser\translator.py:54:0: C0103: Class name "translator" doesn't conform to PascalCase naming style (invalid-name)
+celestine\parser\translator.py:56:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\parser\translator.py:54:0: R0903: Too few public methods (1/2) (too-few-public-methods)
+celestine\parser\translator.py:60:0: C0115: Missing class docstring (missing-class-docstring)
+celestine\parser\translator.py:60:0: C0103: Class name "tokenizer" doesn't conform to PascalCase naming style (invalid-name)
+celestine\parser\translator.py:62:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\parser\translator.py:60:0: R0903: Too few public methods (1/2) (too-few-public-methods)
+celestine\parser\translator.py:66:0: C0115: Missing class docstring (missing-class-docstring)
+celestine\parser\translator.py:66:0: C0103: Class name "parser" doesn't conform to PascalCase naming style (invalid-name)
+celestine\parser\translator.py:68:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\parser\translator.py:66:0: R0903: Too few public methods (1/2) (too-few-public-methods)
 ************* Module celestine.test.test_core.test_text
 celestine\test\test_core\test_text.py:1:0: C0114: Missing module docstring (missing-module-docstring)
 celestine\test\test_core\test_text.py:3:0: E0401: Unable to import 'celestine.core.text' (import-error)
@@ -768,15 +771,6 @@ celestine\test\test_core\test_text.py:25:4: C0116: Missing function or method do
 celestine\test\test_core\test_text.py:26:8: E0602: Undefined variable 'log' (undefined-variable)
 celestine\test\test_core\test_text.py:28:4: C0116: Missing function or method docstring (missing-function-docstring)
 celestine\test\test_core\test_text.py:29:8: E0602: Undefined variable 'log' (undefined-variable)
-************* Module celestine.test.test_extension.test_init
-celestine\test\test_extension\test_init.py:1:0: C0114: Missing module docstring (missing-module-docstring)
-celestine\test\test_extension\test_init.py:3:0: W0401: Wildcard import celestine.extension (wildcard-import)
-celestine\test\test_extension\test_init.py:6:0: C0115: Missing class docstring (missing-class-docstring)
-celestine\test\test_extension\test_init.py:6:0: C0103: Class name "test_init" doesn't conform to PascalCase naming style (invalid-name)
-celestine\test\test_extension\test_init.py:7:4: C0116: Missing function or method docstring (missing-function-docstring)
-celestine\test\test_extension\test_init.py:8:25: E0602: Undefined variable 'extension' (undefined-variable)
-celestine\test\test_extension\test_init.py:10:4: C0116: Missing function or method docstring (missing-function-docstring)
-celestine\test\test_extension\test_init.py:11:22: E0602: Undefined variable 'extension' (undefined-variable)
 ************* Module celestine.test.test_extension.test_more_itertools
 celestine\test\test_extension\test_more_itertools.py:1:0: C0114: Missing module docstring (missing-module-docstring)
 celestine\test\test_extension\test_more_itertools.py:3:0: W0401: Wildcard import celestine.extension.more_itertools (wildcard-import)
@@ -826,7 +820,7 @@ celestine\test\test_parser\test_operator.py:176:4: C0116: Missing function or me
 celestine\test\test_parser\test_operator.py:177:8: W0612: Unused variable 'token' (unused-variable)
 celestine\test\test_parser\test_operator.py:3:0: W0614: Unused import(s) Operator, tab, word, number, join, tab_parse, word_parse, number_parse, unary_parse, comparison_parse and Divider from wildcard import of celestine.parser.operator (unused-wildcard-import)
 celestine\test\test_parser\test_operator.py:4:0: W0614: Unused import(s) enum and Letter from wildcard import of celestine.data.alphabet (unused-wildcard-import)
-celestine\test\test_parser\test_operator.py:5:0: W0614: Unused import(s) log_unicode, decode, maps, translator, encoding, log, split_when and filter_true from wildcard import of celestine.parser.translator (unused-wildcard-import)
+celestine\test\test_parser\test_operator.py:5:0: W0614: Unused import(s) log_unicode, decode, maps, translator, encoding, split_when and filter_true from wildcard import of celestine.parser.translator (unused-wildcard-import)
 ************* Module celestine.test.test_parser.test_translator
 celestine\test\test_parser\test_translator.py:147:0: C0301: Line too long (343/100) (line-too-long)
 celestine\test\test_parser\test_translator.py:1:0: C0114: Missing module docstring (missing-module-docstring)
@@ -840,7 +834,7 @@ celestine\test\test_parser\test_translator.py:30:4: C0116: Missing function or m
 celestine\test\test_parser\test_translator.py:39:4: C0116: Missing function or method docstring (missing-function-docstring)
 celestine\test\test_parser\test_translator.py:68:4: C0116: Missing function or method docstring (missing-function-docstring)
 celestine\test\test_parser\test_translator.py:128:4: C0116: Missing function or method docstring (missing-function-docstring)
-celestine\test\test_parser\test_translator.py:3:0: W0614: Unused import(s) log_unicode, decode, maps, encoding, log, split_when, filter_true, Unary, comparison_parse, number_parse, tab_parse, word_parse and unary_parse from wildcard import of celestine.parser.translator (unused-wildcard-import)
+celestine\test\test_parser\test_translator.py:3:0: W0614: Unused import(s) log_unicode, decode, maps, encoding, split_when, filter_true, Unary, comparison_parse, number_parse, tab_parse, word_parse and unary_parse from wildcard import of celestine.parser.translator (unused-wildcard-import)
 celestine\test\test_parser\test_translator.py:4:0: W0614: Unused import(s) Operator, eq, ge, gt, le, nn, nu, add, div, mul, sub and join from wildcard import of celestine.parser.operator (unused-wildcard-import)
 ************* Module celestine.test.test_parser.__init__
 celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
@@ -1062,6 +1056,7 @@ celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
     quote_window.noutrefresh()
     curses.doupdate()
 
+
     while True:
         c = quote_window.getch()
         if c == ord('r') or c == ord('R'):
@@ -1089,9 +1084,14 @@ celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
     min_x_wkeystr = width - 1
     min_x_kkeystr = width - 1
 
+
+
     cursor_x = 0
     cursor_y = 0
- (duplicate-code)
+
+
+
+    # Loop where k is the last character pressed (duplicate-code)
 celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
 ==celestine.package._curses2:[56:83]
 ==celestine.package.curses:[71:94]
@@ -1103,8 +1103,12 @@ celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
     min_x_wkeystr = width - 1
     min_x_kkeystr = width - 1
 
+
+
     cursor_x = 0
     cursor_y = 0
+
+
 
     # Loop where k is the last character pressed
     while (k != ord('q')):
@@ -1134,8 +1138,22 @@ celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
         # Rendering some text
         whstr = "Width: {}, Height: {}".format(width, height) (duplicate-code)
 celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
+==celestine.package.dearpygui:[64:75]
+==celestine.package.tkinter:[46:57]
+        filename = tkinter.filedialog.askopenfilename(
+            initialdir="/",
+            title="Select a File",
+            filetypes=(
+                ("Text files", "*.txt*"),
+                ("all files", "*.*")
+            )
+        )
+        self.item[tag].configure(text="File Opened: " + filename)
+
+    def image(self, tag, image): (duplicate-code)
+celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
 ==celestine.package._curses:[132:145]
-==celestine.package.curses:[194:207]
+==celestine.package.curses:[194:209]
 VERSION = 1
 
 
@@ -1148,7 +1166,9 @@ class Window():
         "done"
     ]
 
-    def draw(self): (duplicate-code)
+    def run(self, app):
+        #app.setup(self)
+        #app.view(self) (duplicate-code)
 celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
 ==celestine.package._curses:[3:14]
 ==celestine.package.curses:[54:65]
@@ -1159,10 +1179,23 @@ celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
     min_x_keystr = width - 1
     min_x_wkeystr = width - 1
     min_x_kkeystr = width - 1
+
     cursor_x = 0
     cursor_y = 0
+ (duplicate-code)
+celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
+==celestine.package.dearpygui:[64:72]
+==celestine.package.tkinter:[18:28]
+    filename = tkinter.filedialog.askopenfilename(
+        initialdir="/",
+        title="Select a File",
+        filetypes=(
+            ("Text files", "*.txt*"),
+            ("all files", "*.*")
+        )
+    )
 
-    # Clear and refresh the screen for a blank canvas (duplicate-code)
+    # Change label contents (duplicate-code)
 celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
 ==celestine.package._curses:[120:132]
 ==celestine.package.curses:[181:189]
@@ -1172,15 +1205,11 @@ celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
         stdscr.clrtoeol()
         stdscr.move(start_y + 9, min_x_kkeystr)
         stdscr.clrtoeol()
-        stdscr.refresh()
 
-
-
-import dearpygui.dearpygui as dpg
- (duplicate-code)
+        stdscr.refresh() (duplicate-code)
 celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
 ==celestine.package._tkinter2:[234:243]
-==celestine.package.tkinter:[7:17]
+==celestine.package.tkinter:[8:18]
 class Image():
     def __init__(self, file):
         image = tkinter.PhotoImage(file=file)
@@ -1189,7 +1218,8 @@ class Image():
         self.width = image.width()
         self.name = file
 
- (duplicate-code)
+
+def browseFiles(): (duplicate-code)
 celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
 ==celestine.package._curses2:[20:27]
 ==celestine.package.curses:[18:25]
@@ -1202,5 +1232,5 @@ celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
     quote_window = curses.newwin(19, 80, 1, 0) (duplicate-code)
 
 ------------------------------------------------------------------
-Your code has been rated at 5.05/10 (previous run: 5.03/10, +0.02)
+Your code has been rated at 5.15/10 (previous run: 5.13/10, +0.02)
 
