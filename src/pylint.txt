@@ -36,6 +36,8 @@ celestine\core\_text.py:41:4: C0116: Missing function or method docstring (missi
 celestine\core\_text.py:46:4: C0116: Missing function or method docstring (missing-function-docstring)
 celestine\core\_text.py:51:4: C0116: Missing function or method docstring (missing-function-docstring)
 celestine\core\_text.py:56:0: W0105: String statement has no effect (pointless-string-statement)
+************* Module celestine.extension.Epython3_7
+celestine\extension\Epython3_7\__init__.py:1:0: C0103: Module name "Epython3_7" doesn't conform to snake_case naming style (invalid-name)
 ************* Module celestine.extension.pillow.Image
 celestine\extension\pillow\Image.py:107:0: C0301: Line too long (109/100) (line-too-long)
 celestine\extension\pillow\Image.py:165:0: C0305: Trailing newlines (trailing-newlines)
@@ -842,9 +844,15 @@ celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
 ==celestine.package._curses:[39:154]
         cursor_x = max(0, cursor_x)
         cursor_x = min(width-1, cursor_x)
-
         cursor_y = max(0, cursor_y)
         cursor_y = min(height-1, cursor_y)
+
+        # Initialization
+        #stdscr.clear()
+
+
+
+
 
         # Declaration of strings
         title = "Curses example"[:width-1]
@@ -952,7 +960,7 @@ class Window():
             dpg.add_input_text(label="string", default_value="Quick brown fox")
             dpg.add_slider_float(label="float", default_value=0.273, max_value=1)
 
-    def run(self):
+    def run(self, setup, view):
         print("dog")
         curses.wrapper(draw_menu) (duplicate-code)
 celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
@@ -982,6 +990,7 @@ class list:
 
     def reset(self):
         self._index = self._min
+
 
 
 class WindowModel():
@@ -1039,9 +1048,6 @@ class WindowModel():
         path = os.path.dirname(path)
         path = os.path.join(path, "file")
         return path
-
-
-import tkinter
 
  (duplicate-code)
 celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
@@ -1186,16 +1192,14 @@ celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
 celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
 ==celestine.package.dearpygui:[64:72]
 ==celestine.package.tkinter:[18:28]
-    filename = tkinter.filedialog.askopenfilename(
-        initialdir="/",
-        title="Select a File",
-        filetypes=(
-            ("Text files", "*.txt*"),
-            ("all files", "*.*")
-        )
-    )
-
-    # Change label contents (duplicate-code)
+        filename = tkinter.filedialog.askopenfilename(
+            initialdir="/",
+            title="Select a File",
+            filetypes=(
+                ("Text files", "*.txt*"),
+                ("all files", "*.*")
+            )
+        ) (duplicate-code)
 celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
 ==celestine.package._curses:[120:132]
 ==celestine.package.curses:[181:189]
@@ -1218,8 +1222,7 @@ class Image():
         self.width = image.width()
         self.name = file
 
-
-def browseFiles(): (duplicate-code)
+ (duplicate-code)
 celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
 ==celestine.package._curses2:[20:27]
 ==celestine.package.curses:[18:25]
@@ -1232,5 +1235,5 @@ celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
     quote_window = curses.newwin(19, 80, 1, 0) (duplicate-code)
 
 ------------------------------------------------------------------
-Your code has been rated at 5.15/10 (previous run: 5.13/10, +0.02)
+Your code has been rated at 5.14/10 (previous run: 5.15/10, -0.00)
 
