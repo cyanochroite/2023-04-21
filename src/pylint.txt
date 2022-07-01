@@ -125,6 +125,40 @@ celestine\extension\_python\path.py:11:4: C0116: Missing function or method docs
 celestine\extension\_python\path.py:11:16: W0621: Redefining name 'path' from outer scope (line 5) (redefined-outer-name)
 celestine\extension\_python\path.py:15:4: C0116: Missing function or method docstring (missing-function-docstring)
 celestine\extension\_python\path.py:15:13: W0621: Redefining name 'path' from outer scope (line 5) (redefined-outer-name)
+************* Module celestine.language.french
+celestine\language\french.py:3:0: C0304: Final newline missing (missing-final-newline)
+************* Module celestine.language.german
+celestine\language\german.py:3:0: C0304: Final newline missing (missing-final-newline)
+************* Module celestine.library.my_argparse
+celestine\library\my_argparse.py:123:11: E0602: Undefined variable 'load' (undefined-variable)
+celestine\library\my_argparse.py:134:0: C0115: Missing class docstring (missing-class-docstring)
+celestine\library\my_argparse.py:138:8: W0621: Redefining name 'parser' from outer scope (line 75) (redefined-outer-name)
+celestine\library\my_argparse.py:164:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\library\my_argparse.py:166:8: W0621: Redefining name 'parse' from outer scope (line 115) (redefined-outer-name)
+celestine\library\my_argparse.py:168:12: C0103: Variable name "a" doesn't conform to snake_case naming style (invalid-name)
+celestine\library\my_argparse.py:169:12: C0103: Variable name "b" doesn't conform to snake_case naming style (invalid-name)
+celestine\library\my_argparse.py:170:12: C0103: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+celestine\library\my_argparse.py:165:8: W0612: Unused variable 'args' (unused-variable)
+celestine\library\my_argparse.py:168:12: W0612: Unused variable 'a' (unused-variable)
+celestine\library\my_argparse.py:170:12: W0612: Unused variable 'c' (unused-variable)
+celestine\library\my_argparse.py:173:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\library\my_argparse.py:174:8: E1121: Too many positional arguments for method call (too-many-function-args)
+celestine\library\my_argparse.py:174:8: E1123: Unexpected keyword argument 'action' in method call (unexpected-keyword-arg)
+celestine\library\my_argparse.py:174:8: E1123: Unexpected keyword argument 'nargs' in method call (unexpected-keyword-arg)
+celestine\library\my_argparse.py:174:8: E1123: Unexpected keyword argument 'help' in method call (unexpected-keyword-arg)
+celestine\library\my_argparse.py:181:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\library\my_argparse.py:181:4: E0102: method already defined line 173 (function-redefined)
+celestine\library\my_argparse.py:189:8: E1121: Too many positional arguments for method call (too-many-function-args)
+celestine\library\my_argparse.py:189:8: E1123: Unexpected keyword argument 'action' in method call (unexpected-keyword-arg)
+celestine\library\my_argparse.py:189:8: E1123: Unexpected keyword argument 'nargs' in method call (unexpected-keyword-arg)
+celestine\library\my_argparse.py:189:8: E1123: Unexpected keyword argument 'help' in method call (unexpected-keyword-arg)
+celestine\library\my_argparse.py:196:4: E0102: method already defined line 188 (function-redefined)
+celestine\library\my_argparse.py:229:0: E1121: Too many positional arguments for method call (too-many-function-args)
+celestine\library\my_argparse.py:230:0: E1121: Too many positional arguments for method call (too-many-function-args)
+celestine\library\my_argparse.py:231:0: E1121: Too many positional arguments for method call (too-many-function-args)
+celestine\library\my_argparse.py:234:6: E1101: Instance of 'Parser' has no 'python' member (no-member)
+************* Module celestine.library.__init__
+celestine\library\__init__.py:1:0: C0304: Final newline missing (missing-final-newline)
 ************* Module celestine.package.curses
 celestine\package\curses.py:84:0: C0325: Unnecessary parens after 'while' keyword (superfluous-parens)
 celestine\package\curses.py:1:0: C0114: Missing module docstring (missing-module-docstring)
@@ -985,6 +1019,97 @@ class Window():
         print("dog")
         curses.wrapper(draw_menu) (duplicate-code)
 celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
+==celestine.__main__:[56:144]
+==celestine.library.my_argparse:[44:133]
+PYTHON_3_6 = "3.6"
+PYTHON_3_7 = "3.7"
+PYTHON_3_8 = "3.8"
+PYTHON_3_9 = "3.9"
+PYTHON_3_10 = "3.10"
+PYTHON_3_11 = "3.11"
+
+PACKAGE = [
+    CELESTINE,
+    CURSES,
+    DEARPYGUI,
+    TKINTER,
+    UNITTEST
+]
+
+LANGUAGE = [
+    ENGLISH,
+    FRENCH,
+    GERMAN
+]
+
+PYTHON = [
+    PYTHON_3_6,
+    PYTHON_3_7,
+    PYTHON_3_8,
+    PYTHON_3_9,
+    PYTHON_3_10,
+    PYTHON_3_11
+]
+
+parser = argparse.ArgumentParser(prog=CELESTINE)
+
+parser.add_argument(
+    "package",
+    nargs="*",
+    default=CELESTINE,
+    choices=PACKAGE,
+    help="Choose a mode to opperate in."
+)
+
+parser.add_argument(
+    "-l, --language",
+    default=ENGLISH,
+    choices=LANGUAGE,
+    help="Choose a language."
+)
+
+parser.add_argument(
+    "-p, --python",
+    default=PYTHON_3_10,
+    choices=PYTHON,
+    help="Tell me which python version you are using."
+)
+
+####
+
+parser.add_argument(
+    "-a", "--available",
+    action="store_true",
+    help="List all installed packages."
+)
+
+
+parser.add_argument(
+    "-i", "--ini",
+    action=STORE,
+    nargs=1,
+    help="List all installed packages."
+)
+
+parse = vars(parser.parse_args())
+
+
+def parse_package(_package):
+    """Parses a package and tells you why it didn't work."""
+    if _package == CELESTINE:
+        return CELESTINE
+    for name in _package:
+        if load.attempt(name):
+            return name
+        print(F"Package '{name}' is not installed.")
+    return CELESTINE
+
+
+package = parse["package"]
+language = parse["l, __language"]
+python = parse["p, __python"]
+ (duplicate-code)
+celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
 ==celestine.package._tkinter2:[148:234]
 ==celestine.package._tkinter:[10:94]
 class list:
@@ -1116,6 +1241,33 @@ celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
     cursor_y = 0
  (duplicate-code)
 celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
+==celestine.__main__:[86:112]
+==celestine.library.my_argparse:[137:161]
+        parser = argparse.ArgumentParser(prog=CELESTINE)
+
+        parser.add_argument(
+            "package",
+            nargs="*",
+            default=CELESTINE,
+            choices=PACKAGE,
+            help="Choose a mode to opperate in."
+        )
+
+        parser.add_argument(
+            "-l, --language",
+            default=ENGLISH,
+            choices=LANGUAGE,
+            help="Choose a language."
+        )
+
+        parser.add_argument(
+            "-p, --python",
+            default=PYTHON_3_10,
+            choices=PYTHON,
+            help="Tell me which python version you are using."
+        )
+ (duplicate-code)
+celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
 ==celestine.package._curses2:[56:83]
 ==celestine.package.curses:[71:94]
     k = 0
@@ -1140,6 +1292,31 @@ celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
             cursor_x = cursor_x + 1
         elif key == curses.KEY_LEFT:
             cursor_x = cursor_x - 1
+ (duplicate-code)
+celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
+==celestine.__main__:[23:46]
+==celestine.library.my_argparse:[4:26]
+STORE = "store"
+STORE_CONST = "store_const"
+STORE_TRUE = "store_true"
+STORE_FALSE = "store_false"
+APPEND = "append"
+APPEND_CONST = "append_const"
+COUNT = "count"
+HELP = "help"
+VERSION = "version"
+EXTEND = "extend"
+
+MORE_ITERTOOLS = "more_itertools"
+PILLOW = "pillow"
+
+
+EXTENSION = [
+    MORE_ITERTOOLS,
+    PILLOW
+]
+
+####
  (duplicate-code)
 celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
 ==celestine.package._curses:[63:75]
@@ -1185,9 +1362,7 @@ class Window():
         "done"
     ]
 
-    def run(self, app):
-        #app.setup(self)
-        #app.view(self) (duplicate-code)
+    def draw(self): (duplicate-code)
 celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
 ==celestine.package._curses:[3:14]
 ==celestine.package.curses:[54:65]
@@ -1198,10 +1373,10 @@ celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
     min_x_keystr = width - 1
     min_x_wkeystr = width - 1
     min_x_kkeystr = width - 1
-
     cursor_x = 0
     cursor_y = 0
- (duplicate-code)
+
+    # Clear and refresh the screen for a blank canvas (duplicate-code)
 celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
 ==celestine.package.dearpygui:[64:72]
 ==celestine.package.tkinter:[18:28]
@@ -1244,6 +1419,16 @@ class Image():
 
 def browseFiles(): (duplicate-code)
 celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
+==celestine.__main__:[119:126]
+==celestine.library.my_argparse:[173:181]
+parser.add_argument(
+    "-i", "--ini",
+    action=STORE,
+    nargs=1,
+    help="List all installed packages."
+)
+ (duplicate-code)
+celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
 ==celestine.package._curses2:[20:27]
 ==celestine.package.curses:[18:25]
     stdscr.addstr("RANDOM QUOTES", curses.A_REVERSE)
@@ -1253,7 +1438,17 @@ celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
     stdscr.chgat(20, 35, 1, curses.A_BOLD | curses.color_pair(1))
 
     quote_window = curses.newwin(19, 80, 1, 0) (duplicate-code)
+celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
+==celestine.__main__:[46:52]
+==celestine.library.my_argparse:[28:35]
+DEARPYGUI = "dearpygui"
+CELESTINE = "celestine"
+CURSES = "curses"
+TKINTER = "tkinter"
+UNITTEST = "unittest"
+
+ (duplicate-code)
 
 ------------------------------------------------------------------
-Your code has been rated at 5.10/10 (previous run: 5.14/10, -0.04)
+Your code has been rated at 4.98/10 (previous run: 5.19/10, -0.21)
 
