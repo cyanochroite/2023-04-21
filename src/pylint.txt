@@ -1,3 +1,6 @@
+************* Module celestine.core.argparse
+celestine\core\argparse.py:4:0: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\core\argparse.py:5:4: W0621: Redefining name 'parser' from outer scope (line 4) (redefined-outer-name)
 ************* Module celestine.core._config
 celestine\core\_config.py:28:9: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
 celestine\core\_config.py:28:45: C0103: Variable name "configfileObj" doesn't conform to snake_case naming style (invalid-name)
@@ -36,6 +39,17 @@ celestine\core\_text.py:41:4: C0116: Missing function or method docstring (missi
 celestine\core\_text.py:46:4: C0116: Missing function or method docstring (missing-function-docstring)
 celestine\core\_text.py:51:4: C0116: Missing function or method docstring (missing-function-docstring)
 celestine\core\_text.py:56:0: W0105: String statement has no effect (pointless-string-statement)
+************* Module celestine.data.session
+celestine\data\session.py:22:0: C0115: Missing class docstring (missing-class-docstring)
+celestine\data\session.py:24:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\data\session.py:28:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\data\session.py:32:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\data\session.py:54:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\data\session.py:66:8: E0602: Undefined variable 'session' (undefined-variable)
+celestine\data\session.py:71:8: E1129: Context manager 'write' doesn't implement __enter__ and __exit__. (not-context-manager)
+celestine\data\session.py:72:12: E0602: Undefined variable 'session' (undefined-variable)
+celestine\data\session.py:61:8: W0612: Unused variable 'file' (unused-variable)
+celestine\data\session.py:90:15: E0602: Undefined variable 'Version' (undefined-variable)
 ************* Module celestine.extension.pillow.Image
 celestine\extension\pillow\Image.py:107:0: C0301: Line too long (109/100) (line-too-long)
 celestine\extension\pillow\Image.py:165:0: C0305: Trailing newlines (trailing-newlines)
@@ -130,9 +144,9 @@ celestine\language\french.py:3:0: C0304: Final newline missing (missing-final-ne
 ************* Module celestine.language.german
 celestine\language\german.py:3:0: C0304: Final newline missing (missing-final-newline)
 ************* Module celestine.package.celestine
-celestine\package\celestine.py:23:4: E0602: Undefined variable 'MORE_ITERTOOLS' (undefined-variable)
-celestine\package\celestine.py:24:4: E0602: Undefined variable 'PILLOW' (undefined-variable)
-celestine\package\celestine.py:89:11: E0602: Undefined variable 'STORE' (undefined-variable)
+celestine\package\celestine.py:20:10: E1120: No value for argument 'parse' in constructor call (no-value-for-parameter)
+celestine\package\celestine.py:23:4: E0601: Using variable 'MORE_ITERTOOLS' before assignment (used-before-assignment)
+celestine\package\celestine.py:24:4: E0601: Using variable 'PILLOW' before assignment (used-before-assignment)
 ************* Module celestine.package.curses
 celestine\package\curses.py:84:0: C0325: Unnecessary parens after 'while' keyword (superfluous-parens)
 celestine\package\curses.py:1:0: C0114: Missing module docstring (missing-module-docstring)
@@ -211,13 +225,25 @@ celestine\package\tkinter.py:65:4: C0116: Missing function or method docstring (
 celestine\package\tkinter.py:76:4: C0116: Missing function or method docstring (missing-function-docstring)
 celestine\package\tkinter.py:77:8: W0201: Attribute 'root' defined outside __init__ (attribute-defined-outside-init)
 ************* Module celestine.package.unittest
-celestine\package\unittest.py:1:0: C0114: Missing module docstring (missing-module-docstring)
-celestine\package\unittest.py:1:0: W0401: Wildcard import celestine.test.test_parser.test_translator (wildcard-import)
-celestine\package\unittest.py:2:0: W0401: Wildcard import celestine.test.test_parser.test_operator (wildcard-import)
-celestine\package\unittest.py:4:0: W0401: Wildcard import celestine.test.test_extension.test_more_itertools (wildcard-import)
-celestine\package\unittest.py:1:0: W0614: Unused import(s) unittest, test_translator, log_unicode, decode, maps, translator, tokenizer, parser, encoding, split_when, filter_true, Comparison, Digit, Divider, Letter, Unary, comparison_parse, number_parse, tab_parse, word_parse, unary_parse, Operator, eq, ge, gt, le, lt, ne, nn, nu, add, div, mul, sub, tab, word, number and join from wildcard import of celestine.test.test_parser.test_translator (unused-wildcard-import)
-celestine\package\unittest.py:2:0: W0614: Unused import(s) parse, test_digit, test_unary, test_comparison and enum from wildcard import of celestine.test.test_parser.test_operator (unused-wildcard-import)
-celestine\package\unittest.py:4:0: W0614: Unused import(s) test_more_itertools and first_true from wildcard import of celestine.test.test_extension.test_more_itertools (unused-wildcard-import)
+celestine\package\unittest.py:53:0: C0304: Final newline missing (missing-final-newline)
+celestine\package\unittest.py:5:0: W0401: Wildcard import celestine.test.test_parser.test_translator (wildcard-import)
+celestine\package\unittest.py:6:0: W0401: Wildcard import celestine.test.test_parser.test_operator (wildcard-import)
+celestine\package\unittest.py:8:0: W0401: Wildcard import celestine.test.test_extension.test_more_itertools (wildcard-import)
+celestine\package\unittest.py:10:0: C0115: Missing class docstring (missing-class-docstring)
+celestine\package\unittest.py:14:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\package\unittest.py:17:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\package\unittest.py:20:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\package\unittest.py:23:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\package\unittest.py:26:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\package\unittest.py:29:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\package\unittest.py:35:8: W0622: Redefining built-in 'exit' (redefined-builtin)
+celestine\package\unittest.py:31:8: C0103: Variable name "defaultTest" doesn't conform to snake_case naming style (invalid-name)
+celestine\package\unittest.py:33:8: C0103: Variable name "testRunner" doesn't conform to snake_case naming style (invalid-name)
+celestine\package\unittest.py:34:8: C0103: Variable name "testLoader" doesn't conform to snake_case naming style (invalid-name)
+celestine\package\unittest.py:29:18: W0613: Unused argument 'app' (unused-argument)
+celestine\package\unittest.py:5:0: W0614: Unused import(s) test_translator, log_unicode, decode, maps, translator, tokenizer, parser, encoding, split_when, filter_true, Comparison, Digit, Divider, Letter, Unary, comparison_parse, number_parse, tab_parse, word_parse, unary_parse, Operator, eq, ge, gt, le, lt, ne, nn, nu, add, div, mul, sub, tab, word, number and join from wildcard import of celestine.test.test_parser.test_translator (unused-wildcard-import)
+celestine\package\unittest.py:6:0: W0614: Unused import(s) parse, test_digit, test_unary, test_comparison and enum from wildcard import of celestine.test.test_parser.test_operator (unused-wildcard-import)
+celestine\package\unittest.py:8:0: W0614: Unused import(s) test_more_itertools and first_true from wildcard import of celestine.test.test_extension.test_more_itertools (unused-wildcard-import)
 ************* Module celestine.package._curses
 celestine\package\_curses.py:25:0: C0325: Unnecessary parens after 'while' keyword (superfluous-parens)
 celestine\package\_curses.py:1:0: C0114: Missing module docstring (missing-module-docstring)
@@ -1015,7 +1041,6 @@ class list:
         self._index = self._min
 
 
-
 class WindowModel():
     def __init__(self):
         self._init_image_list()
@@ -1072,6 +1097,9 @@ class WindowModel():
         path = os.path.join(path, "file")
         return path
 
+
+import tkinter
+
  (duplicate-code)
 celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
 ==celestine.package._curses2:[27:72]
@@ -1084,7 +1112,6 @@ celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
     stdscr.noutrefresh()
     quote_window.noutrefresh()
     curses.doupdate()
-
 
     while True:
         c = quote_window.getch()
@@ -1113,14 +1140,9 @@ celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
     min_x_wkeystr = width - 1
     min_x_kkeystr = width - 1
 
-
-
     cursor_x = 0
     cursor_y = 0
-
-
-
-    # Loop where k is the last character pressed (duplicate-code)
+ (duplicate-code)
 celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
 ==celestine.package._curses2:[56:83]
 ==celestine.package.curses:[71:94]
@@ -1148,22 +1170,19 @@ celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
             cursor_x = cursor_x - 1
  (duplicate-code)
 celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
-==celestine.__main__:[54:68]
-==celestine.package.celestine:[64:79]
-    default="python_3_10",
-    choices=[
-        "python_3_6",
-        "python_3_7",
-        "python_3_8",
-        "python_3_9",
-        "python_3_10",
-        "python_3_11"
-    ],
-    help="Tell me which python version you are using.",
-    dest="python"
-)
-
-####
+==celestine.core.argparse:[34:46]
+==celestine.package.celestine:[128:142]
+        choices=[
+            "python_3_6",
+            "python_3_7",
+            "python_3_8",
+            "python_3_9",
+            "python_3_10",
+            "python_3_11"
+        ],
+        help="Tell me which python version you are using.",
+        dest="python"
+    )
  (duplicate-code)
 celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
 ==celestine.package._curses:[63:75]
@@ -1180,20 +1199,6 @@ celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
 
         # Rendering some text
         whstr = "Width: {}, Height: {}".format(width, height) (duplicate-code)
-celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
-==celestine.__main__:[39:50]
-==celestine.package.celestine:[51:62]
-    "-l, --language",
-    default="english",
-    choices=[
-        "english",
-        "french",
-        "german"
-    ],
-    help="Choose a language.",
-    dest="language"
-)
- (duplicate-code)
 celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
 ==celestine.package.dearpygui:[64:75]
 ==celestine.package.tkinter:[46:57]
@@ -1239,16 +1244,31 @@ celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
 
     # Clear and refresh the screen for a blank canvas (duplicate-code)
 celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
+==celestine.core.argparse:[23:33]
+==celestine.package.celestine:[116:126]
+        choices=[
+            "english",
+            "french",
+            "german"
+        ],
+        help="Choose a language.",
+        dest="language"
+    )
+
+    parser.add_argument( (duplicate-code)
+celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
 ==celestine.package.dearpygui:[64:72]
 ==celestine.package.tkinter:[18:28]
-        filename = tkinter.filedialog.askopenfilename(
-            initialdir="/",
-            title="Select a File",
-            filetypes=(
-                ("Text files", "*.txt*"),
-                ("all files", "*.*")
-            )
-        ) (duplicate-code)
+    filename = tkinter.filedialog.askopenfilename(
+        initialdir="/",
+        title="Select a File",
+        filetypes=(
+            ("Text files", "*.txt*"),
+            ("all files", "*.*")
+        )
+    )
+
+    # Change label contents (duplicate-code)
 celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
 ==celestine.package._curses:[120:132]
 ==celestine.package.curses:[181:189]
@@ -1265,15 +1285,15 @@ celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
 import dearpygui.dearpygui as dpg
  (duplicate-code)
 celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
-==celestine.__main__:[27:34]
-==celestine.package.celestine:[40:47]
-    choices=[
-        "celestine",
-        "curses",
-        "dearpygui",
-        "tkinter",
-        "unittest"
-    ], (duplicate-code)
+==celestine.core.argparse:[10:17]
+==celestine.package.celestine:[103:110]
+        choices=[
+            "celestine",
+            "curses",
+            "dearpygui",
+            "tkinter",
+            "unittest"
+        ], (duplicate-code)
 celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
 ==celestine.package._tkinter2:[234:243]
 ==celestine.package.tkinter:[8:18]
@@ -1298,5 +1318,5 @@ celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
     quote_window = curses.newwin(19, 80, 1, 0) (duplicate-code)
 
 ------------------------------------------------------------------
-Your code has been rated at 5.08/10 (previous run: 4.98/10, +0.10)
+Your code has been rated at 5.08/10 (previous run: 5.06/10, +0.02)
 
