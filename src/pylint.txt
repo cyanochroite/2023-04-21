@@ -126,10 +126,14 @@ celestine\extension\_python\path.py:11:16: W0621: Redefining name 'path' from ou
 celestine\extension\_python\path.py:15:4: C0116: Missing function or method docstring (missing-function-docstring)
 celestine\extension\_python\path.py:15:13: W0621: Redefining name 'path' from outer scope (line 5) (redefined-outer-name)
 ************* Module celestine.package.celestine
-celestine\package\celestine.py:17:0: E0401: Unable to import 'celestine.data.session' (import-error)
-celestine\package\celestine.py:17:0: E0611: No name 'session' in module 'celestine.data' (no-name-in-module)
-celestine\package\celestine.py:23:4: E0601: Using variable 'MORE_ITERTOOLS' before assignment (used-before-assignment)
-celestine\package\celestine.py:24:4: E0601: Using variable 'PILLOW' before assignment (used-before-assignment)
+celestine\package\celestine.py:4:0: C0115: Missing class docstring (missing-class-docstring)
+celestine\package\celestine.py:8:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\package\celestine.py:11:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\package\celestine.py:14:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\package\celestine.py:17:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\package\celestine.py:20:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\package\celestine.py:23:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\package\celestine.py:23:18: W0613: Unused argument 'app' (unused-argument)
 ************* Module celestine.package.curses
 celestine\package\curses.py:84:0: C0325: Unnecessary parens after 'while' keyword (superfluous-parens)
 celestine\package\curses.py:1:0: C0114: Missing module docstring (missing-module-docstring)
@@ -857,9 +861,15 @@ celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
 ==celestine.package._curses:[39:154]
         cursor_x = max(0, cursor_x)
         cursor_x = min(width-1, cursor_x)
-
         cursor_y = max(0, cursor_y)
         cursor_y = min(height-1, cursor_y)
+
+        # Initialization
+        #stdscr.clear()
+
+
+
+
 
         # Declaration of strings
         title = "Curses example"[:width-1]
@@ -967,7 +977,7 @@ class Window():
             dpg.add_input_text(label="string", default_value="Quick brown fox")
             dpg.add_slider_float(label="float", default_value=0.273, max_value=1)
 
-    def run(self):
+    def run(self, setup, view):
         print("dog")
         curses.wrapper(draw_menu) (duplicate-code)
 celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
@@ -997,7 +1007,6 @@ class list:
 
     def reset(self):
         self._index = self._min
-
 
 
 class WindowModel():
@@ -1056,6 +1065,9 @@ class WindowModel():
         path = os.path.join(path, "file")
         return path
 
+
+import tkinter
+
  (duplicate-code)
 celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
 ==celestine.package._curses2:[27:72]
@@ -1110,8 +1122,12 @@ celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
     min_x_wkeystr = width - 1
     min_x_kkeystr = width - 1
 
+
+
     cursor_x = 0
     cursor_y = 0
+
+
 
     # Loop where k is the last character pressed
     while (k != ord('q')):
@@ -1182,10 +1198,10 @@ celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
     min_x_keystr = width - 1
     min_x_wkeystr = width - 1
     min_x_kkeystr = width - 1
+
     cursor_x = 0
     cursor_y = 0
-
-    # Clear and refresh the screen for a blank canvas (duplicate-code)
+ (duplicate-code)
 celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
 ==celestine.package.dearpygui:[64:72]
 ==celestine.package.tkinter:[18:28]
@@ -1223,8 +1239,7 @@ class Image():
         self.width = image.width()
         self.name = file
 
-
-def browseFiles(): (duplicate-code)
+ (duplicate-code)
 celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
 ==celestine.package._curses2:[20:27]
 ==celestine.package.curses:[18:25]
@@ -1235,7 +1250,25 @@ celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
     stdscr.chgat(20, 35, 1, curses.A_BOLD | curses.color_pair(1))
 
     quote_window = curses.newwin(19, 80, 1, 0) (duplicate-code)
+celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
+==celestine.package.celestine:[8:23]
+==celestine.package.unittest:[11:26]
+        pass
+
+    def file_dialog_load(self, tag):
+        pass
+
+    def image(self, tag, image):
+        pass
+
+    def image_load(self, file):
+        pass
+
+    def label(self, tag, text):
+        pass
+
+    def run(self, app): (duplicate-code)
 
 ------------------------------------------------------------------
-Your code has been rated at 5.14/10 (previous run: 5.02/10, +0.12)
+Your code has been rated at 5.07/10 (previous run: 5.07/10, +0.00)
 
