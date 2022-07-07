@@ -174,8 +174,8 @@ celestine\package\curses.py:6:0: R0915: Too many statements (124/50) (too-many-s
 celestine\package\curses.py:110:8: W0612: Unused variable 'statusbarstr' (unused-variable)
 celestine\package\curses.py:126:8: W0612: Unused variable 'start_x_subtitle' (unused-variable)
 celestine\package\curses.py:196:0: C0115: Missing class docstring (missing-class-docstring)
-celestine\package\curses.py:205:4: C0116: Missing function or method docstring (missing-function-docstring)
-celestine\package\curses.py:205:18: W0613: Unused argument 'app' (unused-argument)
+celestine\package\curses.py:197:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\package\curses.py:197:18: W0613: Unused argument 'app' (unused-argument)
 celestine\package\curses.py:196:0: R0903: Too few public methods (1/2) (too-few-public-methods)
 ************* Module celestine.package.dearpygui
 celestine\package\dearpygui.py:53:0: C0301: Line too long (108/100) (line-too-long)
@@ -861,15 +861,9 @@ celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
 ==celestine.package._curses:[39:154]
         cursor_x = max(0, cursor_x)
         cursor_x = min(width-1, cursor_x)
+
         cursor_y = max(0, cursor_y)
         cursor_y = min(height-1, cursor_y)
-
-        # Initialization
-        #stdscr.clear()
-
-
-
-
 
         # Declaration of strings
         title = "Curses example"[:width-1]
@@ -977,7 +971,7 @@ class Window():
             dpg.add_input_text(label="string", default_value="Quick brown fox")
             dpg.add_slider_float(label="float", default_value=0.273, max_value=1)
 
-    def run(self, setup, view):
+    def run(self):
         print("dog")
         curses.wrapper(draw_menu) (duplicate-code)
 celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
@@ -1081,6 +1075,7 @@ celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
     quote_window.noutrefresh()
     curses.doupdate()
 
+
     while True:
         c = quote_window.getch()
         if c == ord('r') or c == ord('R'):
@@ -1108,9 +1103,14 @@ celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
     min_x_wkeystr = width - 1
     min_x_kkeystr = width - 1
 
+
+
     cursor_x = 0
     cursor_y = 0
- (duplicate-code)
+
+
+
+    # Loop where k is the last character pressed (duplicate-code)
 celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
 ==celestine.package._curses2:[56:83]
 ==celestine.package.curses:[71:94]
@@ -1122,12 +1122,8 @@ celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
     min_x_wkeystr = width - 1
     min_x_kkeystr = width - 1
 
-
-
     cursor_x = 0
     cursor_y = 0
-
-
 
     # Loop where k is the last character pressed
     while (k != ord('q')):
@@ -1171,24 +1167,6 @@ celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
 
     def image(self, tag, image): (duplicate-code)
 celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
-==celestine.package._curses:[132:145]
-==celestine.package.curses:[192:207]
-VERSION = 1
-
-
-class Window():
-    end = [
-        "stop",
-        "die",
-        "end",
-        "kill",
-        "done"
-    ]
-
-    def run(self, app):
-        #app.setup(self)
-        #app.view(self) (duplicate-code)
-celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
 ==celestine.package._curses:[3:14]
 ==celestine.package.curses:[54:65]
     k = 0
@@ -1205,14 +1183,16 @@ celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
 celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
 ==celestine.package.dearpygui:[64:72]
 ==celestine.package.tkinter:[18:28]
-        filename = tkinter.filedialog.askopenfilename(
-            initialdir="/",
-            title="Select a File",
-            filetypes=(
-                ("Text files", "*.txt*"),
-                ("all files", "*.*")
-            )
-        ) (duplicate-code)
+    filename = tkinter.filedialog.askopenfilename(
+        initialdir="/",
+        title="Select a File",
+        filetypes=(
+            ("Text files", "*.txt*"),
+            ("all files", "*.*")
+        )
+    )
+
+    # Change label contents (duplicate-code)
 celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
 ==celestine.package._curses:[120:132]
 ==celestine.package.curses:[181:189]
@@ -1222,12 +1202,8 @@ celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
         stdscr.clrtoeol()
         stdscr.move(start_y + 9, min_x_kkeystr)
         stdscr.clrtoeol()
-        stdscr.refresh()
 
-
-
-import dearpygui.dearpygui as dpg
- (duplicate-code)
+        stdscr.refresh() (duplicate-code)
 celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
 ==celestine.package._tkinter2:[234:243]
 ==celestine.package.tkinter:[8:18]
@@ -1270,5 +1246,5 @@ celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
     def run(self, app): (duplicate-code)
 
 ------------------------------------------------------------------
-Your code has been rated at 5.07/10 (previous run: 5.07/10, +0.00)
+Your code has been rated at 5.08/10 (previous run: 5.07/10, +0.00)
 
