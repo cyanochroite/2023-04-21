@@ -135,180 +135,133 @@ celestine\package\celestine.py:20:4: C0116: Missing function or method docstring
 celestine\package\celestine.py:23:4: C0116: Missing function or method docstring (missing-function-docstring)
 celestine\package\celestine.py:23:18: W0613: Unused argument 'app' (unused-argument)
 ************* Module celestine.package.curses
-celestine\package\curses.py:84:0: C0325: Unnecessary parens after 'while' keyword (superfluous-parens)
-celestine\package\curses.py:1:0: C0114: Missing module docstring (missing-module-docstring)
-celestine\package\curses.py:6:0: C0116: Missing function or method docstring (missing-function-docstring)
-celestine\package\curses.py:6:0: R0914: Too many local variables (33/15) (too-many-locals)
-celestine\package\curses.py:9:4: E1101: Module 'curses' has no 'init_pair' member (no-member)
-celestine\package\curses.py:10:4: E1101: Module 'curses' has no 'init_pair' member (no-member)
-celestine\package\curses.py:11:4: E1101: Module 'curses' has no 'init_pair' member (no-member)
-celestine\package\curses.py:17:14: E1101: Module 'curses' has no 'newwin' member (no-member)
-celestine\package\curses.py:22:43: E1101: Module 'curses' has no 'color_pair' member (no-member)
-celestine\package\curses.py:23:44: E1101: Module 'curses' has no 'color_pair' member (no-member)
-celestine\package\curses.py:25:19: E1101: Module 'curses' has no 'newwin' member (no-member)
-celestine\package\curses.py:26:19: E1101: Module 'curses' has no 'newwin' member (no-member)
-celestine\package\curses.py:34:4: E1101: Module 'curses' has no 'doupdate' member (no-member)
-celestine\package\curses.py:37:8: C0103: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
-celestine\package\curses.py:40:57: E1101: Module 'curses' has no 'color_pair' member (no-member)
-celestine\package\curses.py:50:8: E1101: Module 'curses' has no 'doupdate' member (no-member)
-celestine\package\curses.py:56:4: C0103: Variable name "kw" doesn't conform to snake_case naming style (invalid-name)
-celestine\package\curses.py:57:4: C0103: Variable name "kk" doesn't conform to snake_case naming style (invalid-name)
-celestine\package\curses.py:70:14: E1101: Module 'curses' has no 'newwin' member (no-member)
-celestine\package\curses.py:73:4: C0103: Variable name "kw" doesn't conform to snake_case naming style (invalid-name)
-celestine\package\curses.py:74:4: C0103: Variable name "kk" doesn't conform to snake_case naming style (invalid-name)
-celestine\package\curses.py:110:23: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
-celestine\package\curses.py:114:21: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
-celestine\package\curses.py:118:22: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
-celestine\package\curses.py:122:22: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
-celestine\package\curses.py:136:16: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
-celestine\package\curses.py:137:36: E1101: Module 'curses' has no 'color_pair' member (no-member)
-celestine\package\curses.py:146:23: E1101: Module 'curses' has no 'color_pair' member (no-member)
-celestine\package\curses.py:153:24: E1101: Module 'curses' has no 'color_pair' member (no-member)
-celestine\package\curses.py:171:8: E1101: Module 'curses' has no 'ungetch' member (no-member)
-celestine\package\curses.py:172:8: C0103: Variable name "kw" doesn't conform to snake_case naming style (invalid-name)
-celestine\package\curses.py:176:12: E1101: Module 'curses' has no 'unget_wch' member (no-member)
-celestine\package\curses.py:178:12: E1101: Module 'curses' has no 'ungetch' member (no-member)
-celestine\package\curses.py:179:8: C0103: Variable name "kk" doesn't conform to snake_case naming style (invalid-name)
-celestine\package\curses.py:6:0: R0912: Too many branches (16/12) (too-many-branches)
-celestine\package\curses.py:6:0: R0915: Too many statements (124/50) (too-many-statements)
-celestine\package\curses.py:110:8: W0612: Unused variable 'statusbarstr' (unused-variable)
-celestine\package\curses.py:126:8: W0612: Unused variable 'start_x_subtitle' (unused-variable)
-celestine\package\curses.py:196:0: C0115: Missing class docstring (missing-class-docstring)
-celestine\package\curses.py:197:4: C0116: Missing function or method docstring (missing-function-docstring)
-celestine\package\curses.py:197:18: W0613: Unused argument 'app' (unused-argument)
-celestine\package\curses.py:196:0: R0903: Too few public methods (1/2) (too-few-public-methods)
+celestine\package\curses.py:65:0: C0325: Unnecessary parens after 'while' keyword (superfluous-parens)
+celestine\package\curses.py:9:0: C0115: Missing class docstring (missing-class-docstring)
+celestine\package\curses.py:12:8: C0103: Attribute name "x" doesn't conform to snake_case naming style (invalid-name)
+celestine\package\curses.py:13:8: C0103: Attribute name "y" doesn't conform to snake_case naming style (invalid-name)
+celestine\package\curses.py:17:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\package\curses.py:20:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\package\curses.py:34:0: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\package\curses.py:39:11: E1101: Module 'curses' has no 'newwin' member (no-member)
+celestine\package\curses.py:42:0: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\package\curses.py:50:0: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\package\curses.py:63:4: E1101: Module 'curses' has no 'doupdate' member (no-member)
+celestine\package\curses.py:74:0: C0115: Missing class docstring (missing-class-docstring)
+celestine\package\curses.py:75:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\package\curses.py:75:18: W0613: Unused argument 'app' (unused-argument)
+celestine\package\curses.py:74:0: R0903: Too few public methods (1/2) (too-few-public-methods)
 ************* Module celestine.package.dearpygui
-celestine\package\dearpygui.py:53:0: C0301: Line too long (108/100) (line-too-long)
-celestine\package\dearpygui.py:1:0: C0114: Missing module docstring (missing-module-docstring)
-celestine\package\dearpygui.py:7:0: C0115: Missing class docstring (missing-class-docstring)
-celestine\package\dearpygui.py:7:0: R0903: Too few public methods (0/2) (too-few-public-methods)
-celestine\package\dearpygui.py:26:0: C0116: Missing function or method docstring (missing-function-docstring)
-celestine\package\dearpygui.py:26:17: W0613: Unused argument 'sender' (unused-argument)
-celestine\package\dearpygui.py:26:25: W0613: Unused argument 'app_data' (unused-argument)
-celestine\package\dearpygui.py:30:0: C0116: Missing function or method docstring (missing-function-docstring)
-celestine\package\dearpygui.py:30:18: W0613: Unused argument 'sender' (unused-argument)
-celestine\package\dearpygui.py:38:0: C0115: Missing class docstring (missing-class-docstring)
-celestine\package\dearpygui.py:42:4: C0116: Missing function or method docstring (missing-function-docstring)
-celestine\package\dearpygui.py:64:4: C0116: Missing function or method docstring (missing-function-docstring)
-celestine\package\dearpygui.py:65:19: E0602: Undefined variable 'tkinter' (undefined-variable)
-celestine\package\dearpygui.py:75:4: C0116: Missing function or method docstring (missing-function-docstring)
-celestine\package\dearpygui.py:79:4: C0116: Missing function or method docstring (missing-function-docstring)
-celestine\package\dearpygui.py:82:4: C0116: Missing function or method docstring (missing-function-docstring)
-celestine\package\dearpygui.py:86:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\package\dearpygui.py:52:0: C0301: Line too long (108/100) (line-too-long)
+celestine\package\dearpygui.py:6:0: C0115: Missing class docstring (missing-class-docstring)
+celestine\package\dearpygui.py:6:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+celestine\package\dearpygui.py:25:0: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\package\dearpygui.py:25:17: W0613: Unused argument 'sender' (unused-argument)
+celestine\package\dearpygui.py:25:25: W0613: Unused argument 'app_data' (unused-argument)
+celestine\package\dearpygui.py:29:0: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\package\dearpygui.py:29:18: W0613: Unused argument 'sender' (unused-argument)
+celestine\package\dearpygui.py:37:0: C0115: Missing class docstring (missing-class-docstring)
+celestine\package\dearpygui.py:41:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\package\dearpygui.py:63:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\package\dearpygui.py:64:19: E0602: Undefined variable 'tkinter' (undefined-variable)
+celestine\package\dearpygui.py:74:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\package\dearpygui.py:78:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\package\dearpygui.py:81:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\package\dearpygui.py:85:4: C0116: Missing function or method docstring (missing-function-docstring)
 ************* Module celestine.package.tkinter
-celestine\package\tkinter.py:90:0: C0305: Trailing newlines (trailing-newlines)
-celestine\package\tkinter.py:1:0: C0114: Missing module docstring (missing-module-docstring)
-celestine\package\tkinter.py:9:0: C0115: Missing class docstring (missing-class-docstring)
-celestine\package\tkinter.py:9:0: R0903: Too few public methods (0/2) (too-few-public-methods)
-celestine\package\tkinter.py:18:0: C0116: Missing function or method docstring (missing-function-docstring)
-celestine\package\tkinter.py:18:0: C0103: Function name "browseFiles" doesn't conform to snake_case naming style (invalid-name)
-celestine\package\tkinter.py:29:4: E0602: Undefined variable 'label_file_explorer' (undefined-variable)
-celestine\package\tkinter.py:32:0: C0115: Missing class docstring (missing-class-docstring)
-celestine\package\tkinter.py:36:4: C0116: Missing function or method docstring (missing-function-docstring)
-celestine\package\tkinter.py:46:4: C0116: Missing function or method docstring (missing-function-docstring)
-celestine\package\tkinter.py:57:4: C0116: Missing function or method docstring (missing-function-docstring)
-celestine\package\tkinter.py:62:4: C0116: Missing function or method docstring (missing-function-docstring)
-celestine\package\tkinter.py:65:4: C0116: Missing function or method docstring (missing-function-docstring)
-celestine\package\tkinter.py:76:4: C0116: Missing function or method docstring (missing-function-docstring)
-celestine\package\tkinter.py:77:8: W0201: Attribute 'root' defined outside __init__ (attribute-defined-outside-init)
+celestine\package\tkinter.py:91:0: C0305: Trailing newlines (trailing-newlines)
+celestine\package\tkinter.py:10:0: C0115: Missing class docstring (missing-class-docstring)
+celestine\package\tkinter.py:10:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+celestine\package\tkinter.py:19:0: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\package\tkinter.py:19:0: C0103: Function name "browseFiles" doesn't conform to snake_case naming style (invalid-name)
+celestine\package\tkinter.py:30:4: E0602: Undefined variable 'label_file_explorer' (undefined-variable)
+celestine\package\tkinter.py:33:0: C0115: Missing class docstring (missing-class-docstring)
+celestine\package\tkinter.py:37:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\package\tkinter.py:47:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\package\tkinter.py:58:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\package\tkinter.py:63:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\package\tkinter.py:66:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\package\tkinter.py:77:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\package\tkinter.py:78:8: W0201: Attribute 'root' defined outside __init__ (attribute-defined-outside-init)
 ************* Module celestine.package.unittest
-celestine\package\unittest.py:53:0: C0304: Final newline missing (missing-final-newline)
 celestine\package\unittest.py:5:0: W0401: Wildcard import celestine.test.test_parser.test_translator (wildcard-import)
 celestine\package\unittest.py:6:0: W0401: Wildcard import celestine.test.test_parser.test_operator (wildcard-import)
 celestine\package\unittest.py:8:0: W0401: Wildcard import celestine.test.test_extension.test_more_itertools (wildcard-import)
-celestine\package\unittest.py:10:0: C0115: Missing class docstring (missing-class-docstring)
-celestine\package\unittest.py:14:4: C0116: Missing function or method docstring (missing-function-docstring)
-celestine\package\unittest.py:17:4: C0116: Missing function or method docstring (missing-function-docstring)
-celestine\package\unittest.py:20:4: C0116: Missing function or method docstring (missing-function-docstring)
-celestine\package\unittest.py:23:4: C0116: Missing function or method docstring (missing-function-docstring)
-celestine\package\unittest.py:26:4: C0116: Missing function or method docstring (missing-function-docstring)
-celestine\package\unittest.py:29:4: C0116: Missing function or method docstring (missing-function-docstring)
-celestine\package\unittest.py:35:8: W0622: Redefining built-in 'exit' (redefined-builtin)
-celestine\package\unittest.py:31:8: C0103: Variable name "defaultTest" doesn't conform to snake_case naming style (invalid-name)
-celestine\package\unittest.py:33:8: C0103: Variable name "testRunner" doesn't conform to snake_case naming style (invalid-name)
-celestine\package\unittest.py:34:8: C0103: Variable name "testLoader" doesn't conform to snake_case naming style (invalid-name)
-celestine\package\unittest.py:29:18: W0613: Unused argument 'app' (unused-argument)
+celestine\package\unittest.py:11:0: C0115: Missing class docstring (missing-class-docstring)
+celestine\package\unittest.py:15:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\package\unittest.py:18:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\package\unittest.py:21:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\package\unittest.py:24:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\package\unittest.py:27:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\package\unittest.py:30:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\package\unittest.py:36:8: W0622: Redefining built-in 'exit' (redefined-builtin)
+celestine\package\unittest.py:32:8: C0103: Variable name "defaultTest" doesn't conform to snake_case naming style (invalid-name)
+celestine\package\unittest.py:34:8: C0103: Variable name "testRunner" doesn't conform to snake_case naming style (invalid-name)
+celestine\package\unittest.py:35:8: C0103: Variable name "testLoader" doesn't conform to snake_case naming style (invalid-name)
+celestine\package\unittest.py:30:18: W0613: Unused argument 'app' (unused-argument)
 celestine\package\unittest.py:5:0: W0614: Unused import(s) test_translator, log_unicode, decode, maps, translator, tokenizer, parser, encoding, split_when, filter_true, Comparison, Digit, Divider, Letter, Unary, comparison_parse, number_parse, tab_parse, word_parse, unary_parse, Operator, eq, ge, gt, le, lt, ne, nn, nu, add, div, mul, sub, tab, word, number and join from wildcard import of celestine.test.test_parser.test_translator (unused-wildcard-import)
 celestine\package\unittest.py:6:0: W0614: Unused import(s) parse, test_digit, test_unary, test_comparison and enum from wildcard import of celestine.test.test_parser.test_operator (unused-wildcard-import)
 celestine\package\unittest.py:8:0: W0614: Unused import(s) test_more_itertools and first_true from wildcard import of celestine.test.test_extension.test_more_itertools (unused-wildcard-import)
 ************* Module celestine.package._curses
-celestine\package\_curses.py:25:0: C0325: Unnecessary parens after 'while' keyword (superfluous-parens)
+celestine\package\_curses.py:26:0: C0325: Unnecessary parens after 'while' keyword (superfluous-parens)
 celestine\package\_curses.py:1:0: C0114: Missing module docstring (missing-module-docstring)
-celestine\package\_curses.py:3:0: C0116: Missing function or method docstring (missing-function-docstring)
-celestine\package\_curses.py:3:0: R0914: Too many local variables (24/15) (too-many-locals)
-celestine\package\_curses.py:5:4: C0103: Variable name "kw" doesn't conform to snake_case naming style (invalid-name)
-celestine\package\_curses.py:6:4: C0103: Variable name "kk" doesn't conform to snake_case naming style (invalid-name)
-celestine\package\_curses.py:20:4: E1101: Module 'curses' has no 'init_pair' member (no-member)
+celestine\package\_curses.py:4:0: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\package\_curses.py:4:0: R0914: Too many local variables (24/15) (too-many-locals)
+celestine\package\_curses.py:6:4: C0103: Variable name "kw" doesn't conform to snake_case naming style (invalid-name)
+celestine\package\_curses.py:7:4: C0103: Variable name "kk" doesn't conform to snake_case naming style (invalid-name)
 celestine\package\_curses.py:21:4: E1101: Module 'curses' has no 'init_pair' member (no-member)
 celestine\package\_curses.py:22:4: E1101: Module 'curses' has no 'init_pair' member (no-member)
-celestine\package\_curses.py:49:23: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
-celestine\package\_curses.py:53:21: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
-celestine\package\_curses.py:57:22: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
-celestine\package\_curses.py:61:22: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
-celestine\package\_curses.py:75:16: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
-celestine\package\_curses.py:76:35: E1101: Module 'curses' has no 'color_pair' member (no-member)
-celestine\package\_curses.py:79:22: E1101: Module 'curses' has no 'color_pair' member (no-member)
-celestine\package\_curses.py:82:23: E1101: Module 'curses' has no 'color_pair' member (no-member)
-celestine\package\_curses.py:85:22: E1101: Module 'curses' has no 'color_pair' member (no-member)
-celestine\package\_curses.py:92:23: E1101: Module 'curses' has no 'color_pair' member (no-member)
-celestine\package\_curses.py:110:8: E1101: Module 'curses' has no 'ungetch' member (no-member)
-celestine\package\_curses.py:111:8: C0103: Variable name "kw" doesn't conform to snake_case naming style (invalid-name)
-celestine\package\_curses.py:115:12: E1101: Module 'curses' has no 'unget_wch' member (no-member)
-celestine\package\_curses.py:117:12: E1101: Module 'curses' has no 'ungetch' member (no-member)
-celestine\package\_curses.py:118:8: C0103: Variable name "kk" doesn't conform to snake_case naming style (invalid-name)
-celestine\package\_curses.py:3:0: R0912: Too many branches (13/12) (too-many-branches)
-celestine\package\_curses.py:3:0: R0915: Too many statements (86/50) (too-many-statements)
-celestine\package\_curses.py:131:0: C0413: Import "import dearpygui.dearpygui as dpg" should be placed at the top of the module (wrong-import-position)
-celestine\package\_curses.py:136:0: C0115: Missing class docstring (missing-class-docstring)
-celestine\package\_curses.py:145:4: C0116: Missing function or method docstring (missing-function-docstring)
-celestine\package\_curses.py:152:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\package\_curses.py:23:4: E1101: Module 'curses' has no 'init_pair' member (no-member)
+celestine\package\_curses.py:50:23: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+celestine\package\_curses.py:54:21: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+celestine\package\_curses.py:58:22: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+celestine\package\_curses.py:62:22: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+celestine\package\_curses.py:76:16: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+celestine\package\_curses.py:77:35: E1101: Module 'curses' has no 'color_pair' member (no-member)
+celestine\package\_curses.py:80:22: E1101: Module 'curses' has no 'color_pair' member (no-member)
+celestine\package\_curses.py:83:23: E1101: Module 'curses' has no 'color_pair' member (no-member)
+celestine\package\_curses.py:86:22: E1101: Module 'curses' has no 'color_pair' member (no-member)
+celestine\package\_curses.py:93:23: E1101: Module 'curses' has no 'color_pair' member (no-member)
+celestine\package\_curses.py:111:8: E1101: Module 'curses' has no 'ungetch' member (no-member)
+celestine\package\_curses.py:112:8: C0103: Variable name "kw" doesn't conform to snake_case naming style (invalid-name)
+celestine\package\_curses.py:116:12: E1101: Module 'curses' has no 'unget_wch' member (no-member)
+celestine\package\_curses.py:118:12: E1101: Module 'curses' has no 'ungetch' member (no-member)
+celestine\package\_curses.py:119:8: C0103: Variable name "kk" doesn't conform to snake_case naming style (invalid-name)
+celestine\package\_curses.py:4:0: R0912: Too many branches (13/12) (too-many-branches)
+celestine\package\_curses.py:4:0: R0915: Too many statements (86/50) (too-many-statements)
 ************* Module celestine.package._curses2
-celestine\package\_curses2.py:9:0: C0303: Trailing whitespace (trailing-whitespace)
-celestine\package\_curses2.py:16:0: C0303: Trailing whitespace (trailing-whitespace)
-celestine\package\_curses2.py:26:0: C0303: Trailing whitespace (trailing-whitespace)
-celestine\package\_curses2.py:32:0: C0303: Trailing whitespace (trailing-whitespace)
-celestine\package\_curses2.py:53:0: C0303: Trailing whitespace (trailing-whitespace)
-celestine\package\_curses2.py:56:0: C0303: Trailing whitespace (trailing-whitespace)
-celestine\package\_curses2.py:73:0: C0325: Unnecessary parens after 'while' keyword (superfluous-parens)
+celestine\package\_curses2.py:58:0: C0325: Unnecessary parens after 'while' keyword (superfluous-parens)
 celestine\package\_curses2.py:1:0: C0114: Missing module docstring (missing-module-docstring)
-celestine\package\_curses2.py:3:0: C0116: Missing function or method docstring (missing-function-docstring)
-celestine\package\_curses2.py:10:0: C0116: Missing function or method docstring (missing-function-docstring)
-celestine\package\_curses2.py:10:0: R0914: Too many local variables (28/15) (too-many-locals)
-celestine\package\_curses2.py:17:4: E1101: Module 'curses' has no 'init_pair' member (no-member)
-celestine\package\_curses2.py:18:4: E1101: Module 'curses' has no 'init_pair' member (no-member)
-celestine\package\_curses2.py:19:4: E1101: Module 'curses' has no 'init_pair' member (no-member)
-celestine\package\_curses2.py:24:43: E1101: Module 'curses' has no 'color_pair' member (no-member)
-celestine\package\_curses2.py:25:44: E1101: Module 'curses' has no 'color_pair' member (no-member)
-celestine\package\_curses2.py:27:19: E1101: Module 'curses' has no 'newwin' member (no-member)
-celestine\package\_curses2.py:35:4: E1101: Module 'curses' has no 'doupdate' member (no-member)
-celestine\package\_curses2.py:39:8: C0103: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
-celestine\package\_curses2.py:42:57: E1101: Module 'curses' has no 'color_pair' member (no-member)
-celestine\package\_curses2.py:52:8: E1101: Module 'curses' has no 'doupdate' member (no-member)
-celestine\package\_curses2.py:58:4: C0103: Variable name "kw" doesn't conform to snake_case naming style (invalid-name)
-celestine\package\_curses2.py:59:4: C0103: Variable name "kk" doesn't conform to snake_case naming style (invalid-name)
-celestine\package\_curses2.py:101:23: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
-celestine\package\_curses2.py:105:21: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
-celestine\package\_curses2.py:109:22: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
-celestine\package\_curses2.py:113:22: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
-celestine\package\_curses2.py:127:16: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
-celestine\package\_curses2.py:128:35: E1101: Module 'curses' has no 'color_pair' member (no-member)
-celestine\package\_curses2.py:131:22: E1101: Module 'curses' has no 'color_pair' member (no-member)
-celestine\package\_curses2.py:134:23: E1101: Module 'curses' has no 'color_pair' member (no-member)
-celestine\package\_curses2.py:137:22: E1101: Module 'curses' has no 'color_pair' member (no-member)
-celestine\package\_curses2.py:144:23: E1101: Module 'curses' has no 'color_pair' member (no-member)
-celestine\package\_curses2.py:162:8: E1101: Module 'curses' has no 'ungetch' member (no-member)
-celestine\package\_curses2.py:163:8: C0103: Variable name "kw" doesn't conform to snake_case naming style (invalid-name)
-celestine\package\_curses2.py:167:12: E1101: Module 'curses' has no 'unget_wch' member (no-member)
-celestine\package\_curses2.py:169:12: E1101: Module 'curses' has no 'ungetch' member (no-member)
-celestine\package\_curses2.py:170:8: C0103: Variable name "kk" doesn't conform to snake_case naming style (invalid-name)
-celestine\package\_curses2.py:10:0: R0912: Too many branches (16/12) (too-many-branches)
-celestine\package\_curses2.py:10:0: R0915: Too many statements (112/50) (too-many-statements)
-celestine\package\_curses2.py:183:0: C0413: Import "import dearpygui.dearpygui as dpg" should be placed at the top of the module (wrong-import-position)
-celestine\package\_curses2.py:188:0: C0115: Missing class docstring (missing-class-docstring)
-celestine\package\_curses2.py:197:4: C0116: Missing function or method docstring (missing-function-docstring)
-celestine\package\_curses2.py:204:4: C0116: Missing function or method docstring (missing-function-docstring)
-celestine\package\_curses2.py:204:18: W0613: Unused argument 'setup' (unused-argument)
-celestine\package\_curses2.py:204:25: W0613: Unused argument 'view' (unused-argument)
+celestine\package\_curses2.py:4:0: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\package\_curses2.py:4:0: R0914: Too many local variables (28/15) (too-many-locals)
+celestine\package\_curses2.py:7:4: E1101: Module 'curses' has no 'init_pair' member (no-member)
+celestine\package\_curses2.py:8:4: E1101: Module 'curses' has no 'init_pair' member (no-member)
+celestine\package\_curses2.py:9:4: E1101: Module 'curses' has no 'init_pair' member (no-member)
+celestine\package\_curses2.py:14:43: E1101: Module 'curses' has no 'color_pair' member (no-member)
+celestine\package\_curses2.py:15:44: E1101: Module 'curses' has no 'color_pair' member (no-member)
+celestine\package\_curses2.py:17:19: E1101: Module 'curses' has no 'newwin' member (no-member)
+celestine\package\_curses2.py:25:4: E1101: Module 'curses' has no 'doupdate' member (no-member)
+celestine\package\_curses2.py:28:8: C0103: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+celestine\package\_curses2.py:31:57: E1101: Module 'curses' has no 'color_pair' member (no-member)
+celestine\package\_curses2.py:41:8: E1101: Module 'curses' has no 'doupdate' member (no-member)
+celestine\package\_curses2.py:47:4: C0103: Variable name "kw" doesn't conform to snake_case naming style (invalid-name)
+celestine\package\_curses2.py:48:4: C0103: Variable name "kk" doesn't conform to snake_case naming style (invalid-name)
+celestine\package\_curses2.py:82:23: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+celestine\package\_curses2.py:86:21: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+celestine\package\_curses2.py:90:22: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+celestine\package\_curses2.py:94:22: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+celestine\package\_curses2.py:108:16: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+celestine\package\_curses2.py:109:35: E1101: Module 'curses' has no 'color_pair' member (no-member)
+celestine\package\_curses2.py:112:22: E1101: Module 'curses' has no 'color_pair' member (no-member)
+celestine\package\_curses2.py:115:23: E1101: Module 'curses' has no 'color_pair' member (no-member)
+celestine\package\_curses2.py:118:22: E1101: Module 'curses' has no 'color_pair' member (no-member)
+celestine\package\_curses2.py:125:23: E1101: Module 'curses' has no 'color_pair' member (no-member)
+celestine\package\_curses2.py:143:8: E1101: Module 'curses' has no 'ungetch' member (no-member)
+celestine\package\_curses2.py:144:8: C0103: Variable name "kw" doesn't conform to snake_case naming style (invalid-name)
+celestine\package\_curses2.py:148:12: E1101: Module 'curses' has no 'unget_wch' member (no-member)
+celestine\package\_curses2.py:150:12: E1101: Module 'curses' has no 'ungetch' member (no-member)
+celestine\package\_curses2.py:151:8: C0103: Variable name "kk" doesn't conform to snake_case naming style (invalid-name)
+celestine\package\_curses2.py:4:0: R0912: Too many branches (16/12) (too-many-branches)
+celestine\package\_curses2.py:4:0: R0915: Too many statements (111/50) (too-many-statements)
 ************* Module celestine.package._dearpygui
 celestine\package\_dearpygui.py:18:0: W0301: Unnecessary semicolon (unnecessary-semicolon)
 celestine\package\_dearpygui.py:19:0: W0301: Unnecessary semicolon (unnecessary-semicolon)
@@ -857,30 +810,32 @@ celestine\test\test_parser\test_translator.py:3:0: W0614: Unused import(s) log_u
 celestine\test\test_parser\test_translator.py:4:0: W0614: Unused import(s) Operator, eq, ge, gt, le, nn, nu, add, div, mul, sub and join from wildcard import of celestine.parser.operator (unused-wildcard-import)
 ************* Module celestine.test.test_parser.__init__
 celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
-==celestine.package._curses2:[85:206]
-==celestine.package._curses:[39:154]
+==celestine.package._curses2:[70:163]
+==celestine.package._curses:[40:131]
         cursor_x = max(0, cursor_x)
-        cursor_x = min(width-1, cursor_x)
-
+        cursor_x = min(width - 1, cursor_x)
         cursor_y = max(0, cursor_y)
-        cursor_y = min(height-1, cursor_y)
+        cursor_y = min(height - 1, cursor_y)
+
+        # Initialization
+        # stdscr.clear()
 
         # Declaration of strings
-        title = "Curses example"[:width-1]
-        subtitle = "Written by Clay McLeod"[:width-1]
+        title = "Curses example"[:width - 1]
+        subtitle = "Written by Clay McLeod"[:width - 1]
         statusbarstr = "Press 'q' to exit | STATUS BAR | Pos: {}, {}".format(cursor_x, cursor_y)
         if k == 0:
-            keystr = "No key press detected..."[:width-1]
+            keystr = "No key press detected..."[:width - 1]
         else:
-            keystr = "Last key pressed: {}".format(k)[:width-1]
+            keystr = "Last key pressed: {}".format(k)[:width - 1]
         if kw == 0:
-            wkeystr = "No wide key press detected..."[:width-1]
+            wkeystr = "No wide key press detected..."[:width - 1]
         else:
-            wkeystr = "Last wide key pressed: {}".format(kw)[:width-1]
+            wkeystr = "Last wide key pressed: {}".format(kw)[:width - 1]
         if kk == 0:
-            kkeystr = "No 'key' press detected..."[:width-1]
+            kkeystr = "No 'key' press detected..."[:width - 1]
         else:
-            kkeystr = "Last 'key' pressed: {}".format(kk)[:width-1]
+            kkeystr = "Last 'key' pressed: {}".format(kk)[:width - 1]
 
         # Centering calculations
         start_x_title = int((width // 2) - (len(title) // 2) - len(title) % 2)
@@ -899,8 +854,8 @@ celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
 
         # Render status bar
         stdscr.attron(curses.color_pair(3))
-        stdscr.addstr(height-1, 0, statusbarstr)
-        stdscr.addstr(height-1, len(statusbarstr), " " * (width - len(statusbarstr) - 1))
+        stdscr.addstr(height - 1, 0, statusbarstr)
+        stdscr.addstr(height - 1, len(statusbarstr), " " * (width - len(statusbarstr) - 1))
         stdscr.attroff(curses.color_pair(3))
 
         # Turning on attributes for title
@@ -949,31 +904,7 @@ celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
         stdscr.refresh()
 
 
-
-import dearpygui.dearpygui as dpg
-
-VERSION = 1
-
-
-class Window():
-    end = [
-        "stop",
-        "die",
-        "end",
-        "kill",
-        "done"
-    ]
-
-    def draw(self):
-        with dpg.window(tag="primary_window"):
-            dpg.add_text("Hello, world")
-            dpg.add_button(label="Save")
-            dpg.add_input_text(label="string", default_value="Quick brown fox")
-            dpg.add_slider_float(label="float", default_value=0.273, max_value=1)
-
-    def run(self):
-        print("dog")
-        curses.wrapper(draw_menu) (duplicate-code)
+curses.wrapper(draw_menu) (duplicate-code)
 celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
 ==celestine.package._tkinter2:[148:234]
 ==celestine.package._tkinter:[10:94]
@@ -1001,6 +932,7 @@ class list:
 
     def reset(self):
         self._index = self._min
+
 
 
 class WindowModel():
@@ -1059,42 +991,10 @@ class WindowModel():
         path = os.path.join(path, "file")
         return path
 
-
-import tkinter
-
  (duplicate-code)
 celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
-==celestine.package._curses2:[27:72]
-==celestine.package.curses:[26:65]
-    quote_text_window = quote_window.subwin(14, 76, 3, 2)
-
-    quote_text_window.addstr("Press 'R' to get your first quote!")
-    quote_window.box()
-
-    stdscr.noutrefresh()
-    quote_window.noutrefresh()
-    curses.doupdate()
-
-
-    while True:
-        c = quote_window.getch()
-        if c == ord('r') or c == ord('R'):
-            quote_text_window.clear()
-            quote_text_window.addstr("getting quote...", curses.color_pair(3))
-            quote_text_window.refresh()
-            quote_text_window.clear()
-            quote_text_window.addstr("NEW JOKE")
-        elif c == ord('q') or c == ord('Q'):
-            break
-
-        stdscr.noutrefresh()
-        quote_window.noutrefresh()
-        quote_text_window.noutrefresh()
-        curses.doupdate()
-
-    stdscr.clear()
-    stdscr.refresh()
-
+==celestine.package._curses2:[45:57]
+==celestine.package._curses:[4:15]
     k = 0
     kw = 0
     kk = ""
@@ -1103,58 +1003,13 @@ celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
     min_x_wkeystr = width - 1
     min_x_kkeystr = width - 1
 
-
-
     cursor_x = 0
     cursor_y = 0
-
-
 
     # Loop where k is the last character pressed (duplicate-code)
 celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
-==celestine.package._curses2:[56:83]
-==celestine.package.curses:[71:94]
-    k = 0
-    kw = 0
-    kk = ""
-    height, width = stdscr.getmaxyx()
-    min_x_keystr = width - 1
-    min_x_wkeystr = width - 1
-    min_x_kkeystr = width - 1
-
-    cursor_x = 0
-    cursor_y = 0
-
-    # Loop where k is the last character pressed
-    while (k != ord('q')):
-        key = k
-        if key == curses.KEY_DOWN:
-            cursor_y = cursor_y + 1
-        elif key == curses.KEY_UP:
-            cursor_y = cursor_y - 1
-        elif key == curses.KEY_RIGHT:
-            cursor_x = cursor_x + 1
-        elif key == curses.KEY_LEFT:
-            cursor_x = cursor_x - 1
- (duplicate-code)
-celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
-==celestine.package._curses:[63:75]
-==celestine.package.curses:[124:136]
-        start_x_title = int((width // 2) - (len(title) // 2) - len(title) % 2)
-        start_x_subtitle = int((width // 2) - (len(subtitle) // 2) - len(subtitle) % 2)
-        start_x_keystr = int((width // 2) - (len(keystr) // 2) - len(keystr) % 2)
-        start_x_wkeystr = int((width // 2) - (len(wkeystr) // 2) - len(wkeystr) % 2)
-        start_x_kkeystr = int((width // 2) - (len(kkeystr) // 2) - len(kkeystr) % 2)
-        start_y = int((height // 2) - 2)
-        min_x_keystr = min(min_x_keystr, start_x_keystr)
-        min_x_wkeystr = min(min_x_wkeystr, start_x_wkeystr)
-        min_x_kkeystr = min(min_x_kkeystr, start_x_kkeystr)
-
-        # Rendering some text
-        whstr = "Width: {}, Height: {}".format(width, height) (duplicate-code)
-celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
-==celestine.package.dearpygui:[64:75]
-==celestine.package.tkinter:[46:57]
+==celestine.package.dearpygui:[63:74]
+==celestine.package.tkinter:[47:58]
         filename = tkinter.filedialog.askopenfilename(
             initialdir="/",
             title="Select a File",
@@ -1167,46 +1022,19 @@ celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
 
     def image(self, tag, image): (duplicate-code)
 celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
-==celestine.package._curses:[3:14]
-==celestine.package.curses:[54:65]
-    k = 0
-    kw = 0
-    kk = ""
-    height, width = stdscr.getmaxyx()
-    min_x_keystr = width - 1
-    min_x_wkeystr = width - 1
-    min_x_kkeystr = width - 1
-
-    cursor_x = 0
-    cursor_y = 0
- (duplicate-code)
-celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
-==celestine.package.dearpygui:[64:72]
-==celestine.package.tkinter:[18:28]
-    filename = tkinter.filedialog.askopenfilename(
-        initialdir="/",
-        title="Select a File",
-        filetypes=(
-            ("Text files", "*.txt*"),
-            ("all files", "*.*")
-        )
-    )
-
-    # Change label contents (duplicate-code)
-celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
-==celestine.package._curses:[120:132]
-==celestine.package.curses:[181:189]
-        stdscr.move(start_y + 5, min_x_keystr)
-        stdscr.clrtoeol()
-        stdscr.move(start_y + 7, min_x_wkeystr)
-        stdscr.clrtoeol()
-        stdscr.move(start_y + 9, min_x_kkeystr)
-        stdscr.clrtoeol()
-
-        stdscr.refresh() (duplicate-code)
+==celestine.package.dearpygui:[63:71]
+==celestine.package.tkinter:[19:29]
+        filename = tkinter.filedialog.askopenfilename(
+            initialdir="/",
+            title="Select a File",
+            filetypes=(
+                ("Text files", "*.txt*"),
+                ("all files", "*.*")
+            )
+        ) (duplicate-code)
 celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
 ==celestine.package._tkinter2:[234:243]
-==celestine.package.tkinter:[8:18]
+==celestine.package.tkinter:[9:19]
 class Image():
     def __init__(self, file):
         image = tkinter.PhotoImage(file=file)
@@ -1215,20 +1043,21 @@ class Image():
         self.width = image.width()
         self.name = file
 
+
+def browseFiles(): (duplicate-code)
+celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
+==celestine.package._curses2:[19:26]
+==celestine.package.curses:[57:64]
+    quote_text_window.addstr("Press 'R' to get your first quote!")
+    quote_window.box()
+
+    stdscr.noutrefresh()
+    quote_window.noutrefresh()
+    curses.doupdate()
  (duplicate-code)
 celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
-==celestine.package._curses2:[20:27]
-==celestine.package.curses:[18:25]
-    stdscr.addstr("RANDOM QUOTES", curses.A_REVERSE)
-    stdscr.chgat(-1, curses.A_REVERSE)
-
-    stdscr.chgat(20, 7, 1, curses.A_BOLD | curses.color_pair(2))
-    stdscr.chgat(20, 35, 1, curses.A_BOLD | curses.color_pair(1))
-
-    quote_window = curses.newwin(19, 80, 1, 0) (duplicate-code)
-celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
 ==celestine.package.celestine:[8:23]
-==celestine.package.unittest:[11:26]
+==celestine.package.unittest:[12:27]
         pass
 
     def file_dialog_load(self, tag):
@@ -1246,5 +1075,5 @@ celestine\test\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
     def run(self, app): (duplicate-code)
 
 ------------------------------------------------------------------
-Your code has been rated at 5.08/10 (previous run: 5.07/10, +0.00)
+Your code has been rated at 5.29/10 (previous run: 5.08/10, +0.22)
 
