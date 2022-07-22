@@ -1,3 +1,68 @@
+************* Module celestine.configuration
+celestine\configuration.py:8:0: C0413: Import "import argparse" should be placed at the top of the module (wrong-import-position)
+celestine\configuration.py:9:0: C0413: Import "import configparser" should be placed at the top of the module (wrong-import-position)
+celestine\configuration.py:11:0: C0413: Import "from celestine.main.configuration import configuration_load" should be placed at the top of the module (wrong-import-position)
+celestine\configuration.py:12:0: C0413: Import "from celestine.main.configuration import configuration_save" should be placed at the top of the module (wrong-import-position)
+celestine\configuration.py:13:0: C0413: Import "from celestine.main.configuration import configuration_celestine" should be placed at the top of the module (wrong-import-position)
+celestine\configuration.py:14:0: C0413: Import "from celestine.main.configuration import configuration_translator" should be placed at the top of the module (wrong-import-position)
+celestine\configuration.py:16:0: C0413: Import "from celestine.keyword.main import CELESTINE" should be placed at the top of the module (wrong-import-position)
+celestine\configuration.py:17:0: C0413: Import "from celestine.keyword.main import CONFIGURATION_CELESTINE" should be placed at the top of the module (wrong-import-position)
+celestine\configuration.py:18:0: C0413: Import "from celestine.keyword.main import CONFIGURATION_TRANSLATOR" should be placed at the top of the module (wrong-import-position)
+celestine\configuration.py:21:0: C0413: Import "from celestine.keyword.main import LANGUAGE" should be placed at the top of the module (wrong-import-position)
+celestine\configuration.py:22:0: C0413: Import "from celestine.keyword.main import language" should be placed at the top of the module (wrong-import-position)
+celestine\configuration.py:24:0: C0413: Import "from celestine.keyword.main import PACKAGE" should be placed at the top of the module (wrong-import-position)
+celestine\configuration.py:25:0: C0413: Import "from celestine.keyword.main import package" should be placed at the top of the module (wrong-import-position)
+celestine\configuration.py:27:0: C0413: Import "from celestine.keyword.main import PYTHON" should be placed at the top of the module (wrong-import-position)
+celestine\configuration.py:28:0: C0413: Import "from celestine.keyword.main import python" should be placed at the top of the module (wrong-import-position)
+celestine\configuration.py:30:0: C0413: Import "from celestine.keyword.translator import FILE" should be placed at the top of the module (wrong-import-position)
+celestine\configuration.py:33:0: W0404: Reimport 'language' (imported line 22) (reimported)
+celestine\configuration.py:33:0: C0413: Import "from celestine.keyword.main import language" should be placed at the top of the module (wrong-import-position)
+celestine\configuration.py:9:0: W0611: Unused import configparser (unused-import)
+celestine\configuration.py:11:0: W0611: Unused configuration_load imported from celestine.main.configuration (unused-import)
+celestine\configuration.py:21:0: W0611: Unused LANGUAGE imported from celestine.keyword.main (unused-import)
+celestine\configuration.py:24:0: W0611: Unused PACKAGE imported from celestine.keyword.main (unused-import)
+celestine\configuration.py:27:0: W0611: Unused PYTHON imported from celestine.keyword.main (unused-import)
+celestine\configuration.py:30:0: W0611: Unused FILE imported from celestine.keyword.translator (unused-import)
+************* Module celestine.translator
+celestine\translator.py:8:0: W0404: Reimport 'sys' (imported line 3) (reimported)
+celestine\translator.py:8:0: C0413: Import "import sys" should be placed at the top of the module (wrong-import-position)
+celestine\translator.py:9:0: C0413: Import "import uuid" should be placed at the top of the module (wrong-import-position)
+celestine\translator.py:10:0: C0413: Import "import configparser" should be placed at the top of the module (wrong-import-position)
+celestine\translator.py:11:0: C0413: Import "import requests" should be placed at the top of the module (wrong-import-position)
+celestine\translator.py:12:0: C0413: Import "import os" should be placed at the top of the module (wrong-import-position)
+celestine\translator.py:13:0: C0413: Import "import shutil" should be placed at the top of the module (wrong-import-position)
+celestine\translator.py:14:0: C0413: Import "import keyword" should be placed at the top of the module (wrong-import-position)
+celestine\translator.py:16:0: C0413: Import "from celestine.main.configuration import configuration_load" should be placed at the top of the module (wrong-import-position)
+celestine\translator.py:18:0: C0413: Import "from celestine.keyword.main import code" should be placed at the top of the module (wrong-import-position)
+celestine\translator.py:19:0: C0413: Import "from celestine.keyword.main import language" should be placed at the top of the module (wrong-import-position)
+celestine\translator.py:20:0: C0413: Import "from celestine.keyword.main import languages" should be placed at the top of the module (wrong-import-position)
+celestine\translator.py:21:0: C0413: Import "from celestine.keyword.main import WRITE" should be placed at the top of the module (wrong-import-position)
+celestine\translator.py:22:0: C0413: Import "from celestine.keyword.main import UTF_8" should be placed at the top of the module (wrong-import-position)
+celestine\translator.py:25:0: C0413: Import "from celestine.keyword.main import CELESTINE" should be placed at the top of the module (wrong-import-position)
+celestine\translator.py:28:0: C0413: Import "from celestine.keyword.translator import AZURE" should be placed at the top of the module (wrong-import-position)
+celestine\translator.py:30:0: C0413: Import "from celestine.keyword.translator import KEY" should be placed at the top of the module (wrong-import-position)
+celestine\translator.py:31:0: C0413: Import "from celestine.keyword.translator import REGION" should be placed at the top of the module (wrong-import-position)
+celestine\translator.py:32:0: C0413: Import "from celestine.keyword.translator import URL" should be placed at the top of the module (wrong-import-position)
+celestine\translator.py:34:0: C0413: Import "from celestine.keyword.translator import FILE" should be placed at the top of the module (wrong-import-position)
+celestine\translator.py:37:0: C0413: Import "from celestine.keyword.translator import TRANSLATIONS" should be placed at the top of the module (wrong-import-position)
+celestine\translator.py:38:0: C0413: Import "from celestine.keyword.translator import TEXT" should be placed at the top of the module (wrong-import-position)
+celestine\translator.py:39:0: C0413: Import "from celestine.keyword.translator import TO" should be placed at the top of the module (wrong-import-position)
+celestine\translator.py:40:0: C0413: Import "from celestine.keyword.language import thelist" should be placed at the top of the module (wrong-import-position)
+celestine\translator.py:42:0: C0413: Import "from celestine.main.configuration import configuration_translator" should be placed at the top of the module (wrong-import-position)
+celestine\translator.py:48:4: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\translator.py:71:15: E1101: Instance of 'Translator' has no 'url' member (no-member)
+celestine\translator.py:76:41: E1101: Instance of 'Translator' has no 'key' member (no-member)
+celestine\translator.py:77:44: E1101: Instance of 'Translator' has no 'region' member (no-member)
+celestine\translator.py:98:0: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\translator.py:104:8: W0104: Statement seems to have no effect (pointless-statement)
+celestine\translator.py:110:0: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\translator.py:113:19: W1309: Using an f-string that does not have any interpolated variables (f-string-without-interpolation)
+celestine\translator.py:116:0: C0116: Missing function or method docstring (missing-function-docstring)
+celestine\translator.py:12:0: C0411: standard import "import os" should be placed before "import requests" (wrong-import-order)
+celestine\translator.py:13:0: C0411: standard import "import shutil" should be placed before "import requests" (wrong-import-order)
+celestine\translator.py:14:0: C0411: standard import "import keyword" should be placed before "import requests" (wrong-import-order)
+celestine\translator.py:12:0: C0412: Imports from package os are not grouped (ungrouped-imports)
+celestine\translator.py:10:0: W0611: Unused import configparser (unused-import)
 ************* Module celestine.core._config
 celestine\core\_config.py:28:9: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
 celestine\core\_config.py:28:45: C0103: Variable name "configfileObj" doesn't conform to snake_case naming style (invalid-name)
@@ -125,6 +190,78 @@ celestine\extension\_python\path.py:11:4: C0116: Missing function or method docs
 celestine\extension\_python\path.py:11:16: W0621: Redefining name 'path' from outer scope (line 5) (redefined-outer-name)
 celestine\extension\_python\path.py:15:4: C0116: Missing function or method docstring (missing-function-docstring)
 celestine\extension\_python\path.py:15:13: W0621: Redefining name 'path' from outer scope (line 5) (redefined-outer-name)
+************* Module celestine.language.bulgarian
+celestine\language\bulgarian.py:2:0: C0103: Constant name "application_title" doesn't conform to UPPER_CASE naming style (invalid-name)
+celestine\language\bulgarian.py:3:0: C0103: Constant name "curses_exit" doesn't conform to UPPER_CASE naming style (invalid-name)
+************* Module celestine.language.croatian
+celestine\language\croatian.py:2:0: C0103: Constant name "application_title" doesn't conform to UPPER_CASE naming style (invalid-name)
+celestine\language\croatian.py:3:0: C0103: Constant name "curses_exit" doesn't conform to UPPER_CASE naming style (invalid-name)
+************* Module celestine.language.czech
+celestine\language\czech.py:2:0: C0103: Constant name "application_title" doesn't conform to UPPER_CASE naming style (invalid-name)
+celestine\language\czech.py:3:0: C0103: Constant name "curses_exit" doesn't conform to UPPER_CASE naming style (invalid-name)
+************* Module celestine.language.danish
+celestine\language\danish.py:2:0: C0103: Constant name "application_title" doesn't conform to UPPER_CASE naming style (invalid-name)
+celestine\language\danish.py:3:0: C0103: Constant name "curses_exit" doesn't conform to UPPER_CASE naming style (invalid-name)
+************* Module celestine.language.dutch
+celestine\language\dutch.py:2:0: C0103: Constant name "application_title" doesn't conform to UPPER_CASE naming style (invalid-name)
+celestine\language\dutch.py:3:0: C0103: Constant name "curses_exit" doesn't conform to UPPER_CASE naming style (invalid-name)
+************* Module celestine.language.english
+celestine\language\english.py:2:0: C0103: Constant name "application_title" doesn't conform to UPPER_CASE naming style (invalid-name)
+celestine\language\english.py:3:0: C0103: Constant name "curses_exit" doesn't conform to UPPER_CASE naming style (invalid-name)
+************* Module celestine.language.estonian
+celestine\language\estonian.py:2:0: C0103: Constant name "application_title" doesn't conform to UPPER_CASE naming style (invalid-name)
+celestine\language\estonian.py:3:0: C0103: Constant name "curses_exit" doesn't conform to UPPER_CASE naming style (invalid-name)
+************* Module celestine.language.finnish
+celestine\language\finnish.py:2:0: C0103: Constant name "application_title" doesn't conform to UPPER_CASE naming style (invalid-name)
+celestine\language\finnish.py:3:0: C0103: Constant name "curses_exit" doesn't conform to UPPER_CASE naming style (invalid-name)
+************* Module celestine.language.french
+celestine\language\french.py:2:0: C0103: Constant name "application_title" doesn't conform to UPPER_CASE naming style (invalid-name)
+celestine\language\french.py:3:0: C0103: Constant name "curses_exit" doesn't conform to UPPER_CASE naming style (invalid-name)
+************* Module celestine.language.german
+celestine\language\german.py:2:0: C0103: Constant name "application_title" doesn't conform to UPPER_CASE naming style (invalid-name)
+celestine\language\german.py:3:0: C0103: Constant name "curses_exit" doesn't conform to UPPER_CASE naming style (invalid-name)
+************* Module celestine.language.greek
+celestine\language\greek.py:2:0: C0103: Constant name "application_title" doesn't conform to UPPER_CASE naming style (invalid-name)
+celestine\language\greek.py:3:0: C0103: Constant name "curses_exit" doesn't conform to UPPER_CASE naming style (invalid-name)
+************* Module celestine.language.hungarian
+celestine\language\hungarian.py:2:0: C0103: Constant name "application_title" doesn't conform to UPPER_CASE naming style (invalid-name)
+celestine\language\hungarian.py:3:0: C0103: Constant name "curses_exit" doesn't conform to UPPER_CASE naming style (invalid-name)
+************* Module celestine.language.irish
+celestine\language\irish.py:2:0: C0103: Constant name "application_title" doesn't conform to UPPER_CASE naming style (invalid-name)
+celestine\language\irish.py:3:0: C0103: Constant name "curses_exit" doesn't conform to UPPER_CASE naming style (invalid-name)
+************* Module celestine.language.italian
+celestine\language\italian.py:2:0: C0103: Constant name "application_title" doesn't conform to UPPER_CASE naming style (invalid-name)
+celestine\language\italian.py:3:0: C0103: Constant name "curses_exit" doesn't conform to UPPER_CASE naming style (invalid-name)
+************* Module celestine.language.latvian
+celestine\language\latvian.py:2:0: C0103: Constant name "application_title" doesn't conform to UPPER_CASE naming style (invalid-name)
+celestine\language\latvian.py:3:0: C0103: Constant name "curses_exit" doesn't conform to UPPER_CASE naming style (invalid-name)
+************* Module celestine.language.lithuanian
+celestine\language\lithuanian.py:2:0: C0103: Constant name "application_title" doesn't conform to UPPER_CASE naming style (invalid-name)
+celestine\language\lithuanian.py:3:0: C0103: Constant name "curses_exit" doesn't conform to UPPER_CASE naming style (invalid-name)
+************* Module celestine.language.maltese
+celestine\language\maltese.py:2:0: C0103: Constant name "application_title" doesn't conform to UPPER_CASE naming style (invalid-name)
+celestine\language\maltese.py:3:0: C0103: Constant name "curses_exit" doesn't conform to UPPER_CASE naming style (invalid-name)
+************* Module celestine.language.polish
+celestine\language\polish.py:2:0: C0103: Constant name "application_title" doesn't conform to UPPER_CASE naming style (invalid-name)
+celestine\language\polish.py:3:0: C0103: Constant name "curses_exit" doesn't conform to UPPER_CASE naming style (invalid-name)
+************* Module celestine.language.portuguese
+celestine\language\portuguese.py:2:0: C0103: Constant name "application_title" doesn't conform to UPPER_CASE naming style (invalid-name)
+celestine\language\portuguese.py:3:0: C0103: Constant name "curses_exit" doesn't conform to UPPER_CASE naming style (invalid-name)
+************* Module celestine.language.romanian
+celestine\language\romanian.py:2:0: C0103: Constant name "application_title" doesn't conform to UPPER_CASE naming style (invalid-name)
+celestine\language\romanian.py:3:0: C0103: Constant name "curses_exit" doesn't conform to UPPER_CASE naming style (invalid-name)
+************* Module celestine.language.slovak
+celestine\language\slovak.py:2:0: C0103: Constant name "application_title" doesn't conform to UPPER_CASE naming style (invalid-name)
+celestine\language\slovak.py:3:0: C0103: Constant name "curses_exit" doesn't conform to UPPER_CASE naming style (invalid-name)
+************* Module celestine.language.slovenian
+celestine\language\slovenian.py:2:0: C0103: Constant name "application_title" doesn't conform to UPPER_CASE naming style (invalid-name)
+celestine\language\slovenian.py:3:0: C0103: Constant name "curses_exit" doesn't conform to UPPER_CASE naming style (invalid-name)
+************* Module celestine.language.spanish
+celestine\language\spanish.py:2:0: C0103: Constant name "application_title" doesn't conform to UPPER_CASE naming style (invalid-name)
+celestine\language\spanish.py:3:0: C0103: Constant name "curses_exit" doesn't conform to UPPER_CASE naming style (invalid-name)
+************* Module celestine.language.swedish
+celestine\language\swedish.py:2:0: C0103: Constant name "application_title" doesn't conform to UPPER_CASE naming style (invalid-name)
+celestine\language\swedish.py:3:0: C0103: Constant name "curses_exit" doesn't conform to UPPER_CASE naming style (invalid-name)
 ************* Module celestine.package.celestine
 celestine\package\celestine.py:4:0: C0115: Missing class docstring (missing-class-docstring)
 celestine\package\celestine.py:9:4: C0116: Missing function or method docstring (missing-function-docstring)
@@ -196,15 +333,9 @@ celestine\package\tkinter.py:67:4: C0116: Missing function or method docstring (
 celestine\package\tkinter.py:78:4: C0116: Missing function or method docstring (missing-function-docstring)
 celestine\package\tkinter.py:79:8: W0201: Attribute 'root' defined outside __init__ (attribute-defined-outside-init)
 ************* Module celestine.package.unittest
-celestine\package\unittest.py:5:0: E0401: Unable to import 'celestine.test.test_parser.test_translator' (import-error)
-celestine\package\unittest.py:5:0: W0401: Wildcard import celestine.test.test_parser.test_translator (wildcard-import)
-celestine\package\unittest.py:5:0: E0611: No name 'test' in module 'celestine' (no-name-in-module)
-celestine\package\unittest.py:6:0: E0401: Unable to import 'celestine.test.test_parser.test_operator' (import-error)
-celestine\package\unittest.py:6:0: W0401: Wildcard import celestine.test.test_parser.test_operator (wildcard-import)
-celestine\package\unittest.py:6:0: E0611: No name 'test' in module 'celestine' (no-name-in-module)
-celestine\package\unittest.py:8:0: E0401: Unable to import 'celestine.test.test_extension.test_more_itertools' (import-error)
-celestine\package\unittest.py:8:0: W0401: Wildcard import celestine.test.test_extension.test_more_itertools (wildcard-import)
-celestine\package\unittest.py:8:0: E0611: No name 'test' in module 'celestine' (no-name-in-module)
+celestine\package\unittest.py:5:0: W0401: Wildcard import celestine.tests.test_parser.test_translator (wildcard-import)
+celestine\package\unittest.py:6:0: W0401: Wildcard import celestine.tests.test_parser.test_operator (wildcard-import)
+celestine\package\unittest.py:8:0: W0401: Wildcard import celestine.tests.test_extension.test_more_itertools (wildcard-import)
 celestine\package\unittest.py:11:0: C0115: Missing class docstring (missing-class-docstring)
 celestine\package\unittest.py:15:4: C0116: Missing function or method docstring (missing-function-docstring)
 celestine\package\unittest.py:18:4: C0116: Missing function or method docstring (missing-function-docstring)
@@ -217,6 +348,9 @@ celestine\package\unittest.py:32:8: C0103: Variable name "defaultTest" doesn't c
 celestine\package\unittest.py:34:8: C0103: Variable name "testRunner" doesn't conform to snake_case naming style (invalid-name)
 celestine\package\unittest.py:35:8: C0103: Variable name "testLoader" doesn't conform to snake_case naming style (invalid-name)
 celestine\package\unittest.py:30:18: W0613: Unused argument 'app' (unused-argument)
+celestine\package\unittest.py:5:0: W0614: Unused import(s) test_translator, log_unicode, decode, maps, translator, tokenizer, parser, encoding, split_when, filter_true, Comparison, Digit, Divider, Letter, Unary, comparison_parse, number_parse, tab_parse, word_parse, unary_parse, Operator, eq, ge, gt, le, lt, ne, nn, nu, add, div, mul, sub, tab, word, number and join from wildcard import of celestine.tests.test_parser.test_translator (unused-wildcard-import)
+celestine\package\unittest.py:6:0: W0614: Unused import(s) parse, test_digit, test_unary, test_comparison and enum from wildcard import of celestine.tests.test_parser.test_operator (unused-wildcard-import)
+celestine\package\unittest.py:8:0: W0614: Unused import(s) test_more_itertools and first_true from wildcard import of celestine.tests.test_extension.test_more_itertools (unused-wildcard-import)
 ************* Module celestine.package._curses
 celestine\package\_curses.py:26:0: C0325: Unnecessary parens after 'while' keyword (superfluous-parens)
 celestine\package\_curses.py:1:0: C0114: Missing module docstring (missing-module-docstring)
@@ -848,11 +982,9 @@ celestine\tests\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
 ==celestine.package._curses:[40:131]
         cursor_x = max(0, cursor_x)
         cursor_x = min(width - 1, cursor_x)
+
         cursor_y = max(0, cursor_y)
         cursor_y = min(height - 1, cursor_y)
-
-        # Initialization
-        # stdscr.clear()
 
         # Declaration of strings
         title = "Curses example"[:width - 1]
@@ -968,7 +1100,6 @@ class list:
         self._index = self._min
 
 
-
 class WindowModel():
     def __init__(self):
         self._init_image_list()
@@ -1025,6 +1156,9 @@ class WindowModel():
         path = os.path.join(path, "file")
         return path
 
+
+import tkinter
+
  (duplicate-code)
 celestine\tests\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
 ==celestine.package._curses2:[45:57]
@@ -1073,5 +1207,5 @@ celestine\tests\test_parser\__init__.py:1:0: R0801: Similar lines in 2 files
     def run(self, app): (duplicate-code)
 
 ------------------------------------------------------------------
-Your code has been rated at 5.15/10 (previous run: 5.15/10, +0.00)
+Your code has been rated at 4.30/10 (previous run: 5.15/10, -0.84)
 
